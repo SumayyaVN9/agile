@@ -1,6 +1,6 @@
 # Table of Contents
 - [Module- 1](#module-i-agile-basics--software-product-lifecycle)
-- [Module-2](#module-2---kanban-principles--practices)
+- [Module-2](#module-ii-kanban-principles--practices)
 
 
 # Module I: Agile Basics & Software Product Lifecycle
