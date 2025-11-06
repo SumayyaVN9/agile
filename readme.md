@@ -333,3 +333,15 @@ In Agile, **Iterative** and **Incremental** approaches work together for continu
 ---
 
 
+# Module 2 - Kanban Principles & Practices
+
+| No.   | Question                                                                                          | Why Important / Exam Trend                                                      |
+| ----- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **1** | **Explain the Kanban board with a neat diagram. Describe the workflow.**                          | **Repeated every year**, scoring question — draw 3-column board for full marks. |
+| **2** | **What are WIP limits? Explain their importance in Kanban.**                                      | Short + Long repeated question. Easy scoring.                                   |
+| **3** | **Differentiate between Lead Time and Cycle Time with examples.**                                 | Very frequently asked as 2 marks / 5 marks.                                     |
+| **4** | **Explain Cumulative Flow Diagram (CFD) and how it helps in identifying bottlenecks.**            | High scoring 5-mark question.                                                   |
+| **5** | **Explain the principles of Kanban.**                                                             | Direct theory question, often asked.                                            |
+| **6** | **Discuss 'Continuous Improvement (Kaizen)' in Kanban.**                                          | Common 5-mark conceptual question.                                              |
+| **7** | **Compare Scrum and Kanban.**                                                                     | Frequently asked in Part B (5 marks).                                           |
+| **8** | **Illustrate a Kanban workflow model for a support / food delivery / student management system.** | **Case-based question** → Can come in Part C (10 marks).                        |
