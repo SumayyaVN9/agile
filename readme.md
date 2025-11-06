@@ -332,10 +332,4 @@ In Agile, **Iterative** and **Incremental** approaches work together for continu
 
 ---
 
-## Additional Resources
-
-For more comprehensive information on Agile practices:
-- Visit the official [Agile Manifesto website](https://agilemanifesto.org/)
-- Explore [Scrum.org](https://www.scrum.org/) for Scrum framework details
-- Check [Lean Enterprise Institute](https://www.lean.org/) for Lean principles
 
