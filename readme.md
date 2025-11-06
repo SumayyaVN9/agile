@@ -1,3 +1,9 @@
+Table of Contents
+
+-[Module- 1](#module-i-agile-basics--software-product-lifecycle)
+-[Module-2](#module-2---kanban-principles--practices)
+
+
 # Module I: Agile Basics & Software Product Lifecycle
 
 ## Table of Contents
@@ -503,4 +509,246 @@ Using a Kanban board, you can track who’s doing what, see what’s pending, an
 
 ---
 
+ **WIP Limits** 
+---
+
+## 🧩 **Definition**
+
+**WIP** stands for **Work In Progress**.
+A **WIP Limit** means setting a **maximum number of tasks** that can be worked on **at the same time** in any column (like “In Progress” or “Testing”) on your Kanban board.
+
+👉 It controls how much work is being handled simultaneously.
+
+---
+
+## 🎯 **Purpose**
+
+The main goal of WIP limits is to:
+
+1. **Prevent overload** – ensures team members aren’t juggling too many tasks at once.
+2. **Improve focus** – people finish what they start instead of switching tasks.
+3. **Identify bottlenecks** – if a column always hits its limit, that’s where work is slowing down.
+4. **Maintain steady flow** – tasks move smoothly from start to finish.
+
+> 💡 In short: **Do less at a time → Finish faster overall.**
+
+---
+
+## 🧠 **Example**
+
+Let’s say your Kanban board looks like this:
+
+| To Do  | In Progress (Limit = 2) | Testing (Limit = 1) | Done   |
+| ------ | ----------------------- | ------------------- | ------ |
+| Task 1 | Task 3                  | Task 5              | Task 2 |
+| Task 4 | Task 6                  |                     |        |
+
+Here:
+
+* The **“In Progress”** column has a **WIP Limit of 2**.
+  → So only **2 tasks** can be actively worked on at once.
+* Before starting a new task, one of the current tasks must move forward (to Testing or Done).
+
+This avoids starting too many tasks and helps focus on completing existing ones.
+
+---
+
+## ⚙️ **Real-Life Analogy**
+
+Imagine cooking:
+If you try to cook **five dishes at once**, you’ll burn something 🔥
+But if you cook **two at a time**, you finish all faster and better.
+That’s exactly what **WIP limits** do in Kanban.
+
+---
+
+### 🧭 **In Summary**
+
+| Term           | Meaning                                                                                |
+| -------------- | -------------------------------------------------------------------------------------- |
+| **Definition** | A maximum number of tasks allowed in any stage at one time.                            |
+| **Purpose**    | To reduce multitasking, find bottlenecks, and keep workflow smooth.                    |
+| **Example**    | “In Progress” column has a WIP limit of 3 — can’t start a 4th task until one finishes. |
+
+---
+
+ **Lead Time** and **Cycle Time** 
+---
+
+## 🧭 **Definition**
+
+| Term           | Definition                                                                                                                           |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Lead Time**  | The **total time** taken from the moment a task is **requested** (added to the “To Do” list) until it is **completed** (“Done”).     |
+| **Cycle Time** | The **actual working time** — the time taken from when work on a task **starts** (“In Progress”) until it is **completed** (“Done”). |
+
+---
+
+## 🧩 **In Simple Words**
+
+* **Lead Time** = Waiting time **+** Working time
+* **Cycle Time** = Only the **Working time**
+
+---
+
+## 🧠 **Example**
+
+Let’s say:
+
+* You add a task “Build Login Page” to your **To Do** list on **1st Nov**.
+* Work on it starts on **4th Nov**.
+* The task is completed on **8th Nov**.
+
+Now:
+
+| Term           | Calculation                                    | Result     |
+| -------------- | ---------------------------------------------- | ---------- |
+| **Lead Time**  | From 1st Nov (requested) → 8th Nov (completed) | **7 days** |
+| **Cycle Time** | From 4th Nov (started) → 8th Nov (completed)   | **4 days** |
+
+---
+
+## 🎯 **Purpose**
+
+| Term           | Purpose                                                                           |
+| -------------- | --------------------------------------------------------------------------------- |
+| **Lead Time**  | Measures how long a customer or manager waits for a request to be delivered.      |
+| **Cycle Time** | Measures team efficiency — how fast the team completes a task once they start it. |
+
+---
+
+## 🧩 **Analogy (Real Life)**
+
+Imagine you order a pizza 🍕:
+
+* You place the order at **6:00 PM**.
+* The chef starts cooking at **6:15 PM**.
+* Pizza arrives at **6:45 PM**.
+
+| Term           | Meaning                                                          | Time           |
+| -------------- | ---------------------------------------------------------------- | -------------- |
+| **Lead Time**  | From when you ordered (6:00) to when you got it (6:45)           | **45 minutes** |
+| **Cycle Time** | From when cooking started (6:15) to when it was delivered (6:45) | **30 minutes** |
+
+---
+
+## 🧮 **Formula Summary**
+
+| Term           | Formula                                   |
+| -------------- | ----------------------------------------- |
+| **Lead Time**  | Task Completion Date − Task Creation Date |
+| **Cycle Time** | Task Completion Date − Work Start Date    |
+
+---
+
+✅ **In Short:**
+
+> * **Lead Time** = Total waiting + working time
+> * **Cycle Time** = Only working time after task starts
+
+---
+
+Sure! Let’s understand the **Cumulative Flow Diagram (CFD)** in simple terms 👇
+
+---
+
+## 🧩 **What is a Cumulative Flow Diagram (CFD)?**
+
+A **Cumulative Flow Diagram (CFD)** is a **visual chart** used in **Kanban** and **Agile** to show how tasks are moving through different stages (like *To Do*, *In Progress*, *Testing*, *Done*) **over time**.
+
+It helps teams **see the overall flow of work** and easily **spot bottlenecks or delays**.
+
+---
+
+## 🧭 **How it Looks**
+
+![Cumulative-flow-diagram](Module-2-Images/cumulative-flow-diagram-agile.png)
+
+It’s usually a **stacked area chart** like this:
+
+```
+↑ Number of Tasks
+│
+│       ▓▓▓▓▓▓▓▓▓▓▓▓▓  ← Done
+│     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  ← Testing
+│   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  ← In Progress
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  ← To Do
+│________________________________→ Time
+```
+
+Each colored band represents the number of tasks in that stage over time.
+
+---
+
+## 🧠 **How It Works**
+
+* The **X-axis** shows **time** (days, weeks, etc.).
+* The **Y-axis** shows the **number of tasks**.
+* Each **colored layer** represents a **workflow stage** (To Do, In Progress, Done).
+* As time passes, the colored areas grow — showing how tasks are added and completed.
+
+---
+
+## 🧩 **Example**
+
+Let’s say your team’s workflow is:
+**To Do → In Progress → Testing → Done**
+
+If your CFD shows:
+
+* “To Do” area is getting **wider** → tasks are piling up, not starting.
+* “In Progress” area is **growing faster than others** → too many tasks started, not finished.
+* “Done” area is **steady or flat** → work isn’t getting completed quickly.
+
+That means there’s a **bottleneck** in your process.
+
+---
+
+## 🔍 **How CFD Helps Identify Bottlenecks**
+
+| Observation in CFD                                   | What It Means                                 |
+| ---------------------------------------------------- | --------------------------------------------- |
+| A band (e.g., “In Progress”) keeps **getting wider** | Work is stuck there → **bottleneck**          |
+| Bands are **parallel and stable**                    | Work is flowing smoothly                      |
+| “Done” band is **flat**                              | Team isn’t finishing tasks regularly          |
+| Large **gap between To Do and Done**                 | Too much work in progress; team is overloaded |
+
+---
+
+## 🎯 **Purpose of CFD**
+
+1. **Visualize workflow health** – see how tasks move through each stage.
+2. **Spot bottlenecks** – find where tasks are getting delayed.
+3. **Measure stability** – consistent, parallel bands mean a steady flow.
+4. **Predict delivery** – helps estimate when future work will be done based on flow trends.
+
+---
+
+## 🧮 **Example (Simple Scenario)**
+
+Suppose:
+
+* On Monday → 5 tasks in *To Do*
+* Wednesday → 8 tasks in *In Progress*
+* Friday → 10 tasks in *Done*
+
+If “In Progress” grows faster than “Done,” your team is **starting too much** but **finishing too little** — a **bottleneck** in active work.
+
+---
+
+## ✅ **In Short**
+
+| Term                              | Explanation                                                                       |
+| --------------------------------- | --------------------------------------------------------------------------------- |
+| **Cumulative Flow Diagram (CFD)** | A stacked area chart showing how many tasks are in each workflow stage over time. |
+| **Use**                           | Tracks work progress and finds delays.                                            |
+| **Bottleneck Sign**               | A widening area for one stage means work is getting stuck there.                  |
+
+---
+
+💡 **Simple takeaway:**
+
+> A **CFD** helps you **see where work slows down** — so you can fix the bottlenecks and keep your workflow smooth.
+
+---
 
