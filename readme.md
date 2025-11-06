@@ -138,4 +138,26 @@ Lean originates from **Toyota manufacturing** and focuses on **reducing waste**.
 | What is Lean Software Development? Explain any two principles. | 2 / 5 |
 | Compare Agile and Waterfall.                                   | 5     |
 
+## Agile-manifesto Values
+
+The Agile Manifesto, created in 2001 by 17 software developers, outlines four core values that prioritize adaptability, collaboration, and the delivery of value to the customer over rigid, traditional methods. The values are expressed as priorities: "we value the items on the left more than the items on the right".
+ ![alt text](Module-1/4-Values-of-Agile-Manifesto-for-Software-Development.jpg)
+The four values are:
+1. Individuals and Interactions over Processes and Tools 
+This value emphasizes that the people on a team and their ability to communicate and collaborate effectively are more important than the specific processes they follow or the tools they use. While processes and tools can provide structure, they are ineffective without motivated individuals who can communicate fluidly to respond to business needs and solve problems. 
+Individuals and Interactions (The Priority): The focus is on the people involved in the project—developers, customers, and team members. Open communication, mutual respect, good collaboration, and the ability to talk through problems are the keys to success. People can adapt, innovate, and solve unexpected problems in real-time.
+Processes and Tools (The Secondary Focus): While processes (like specific step-by-step guides) and tools (like project management software) are helpful for guidance and organization, they should not dictate how people work to the point of rigidity. They are there to support the team, not control them.
+
+2. Working Software over Comprehensive Documentation
+The Agile approach prioritizes the delivery of functional software to the customer as the primary measure of progress. Instead of spending excessive time creating extensive, detailed documentation before development begins (which can cause delays), Agile teams focus on producing working software in short cycles (iterations) and gathering feedback for continuous improvement. 
+3. Customer Collaboration over Contract Negotiation 
+This value highlights the importance of continuous engagement and communication with the customer throughout the development lifecycle. Rather than rigid contract negotiations at the beginning of a project, which can lead to mismatched expectations, Agile teams involve the customer as an active collaborator. This ensures the product truly meets their evolving needs and allows for changes to be incorporated easily. 
+Customer Collaboration (The Priority): The focus is on an ongoing, working relationship where the customer is part of the team. You show them what you are building frequently, get their feedback, and make adjustments as you go. This ensures the final product is exactly what they need, even if their needs change over time.
+Contract Negotiation (The Secondary Focus): A contract is important to set basic expectations and terms, but it can't predict every single detail or future change. If you stick only to the initial contract without talking to the customer, you might build exactly what the contract says, but it might be the wrong product by the time you finish.
+
+4. Responding to Change over Following a Plan
+Agile processes are designed to be flexible and adapt to changing requirements, even late in development, which is seen as a source of competitive advantage for the customer. Traditional methods viewed change as an expense to be avoided, but Agile embraces it. Plans and roadmaps are considered dynamic strategies that can be adjusted based on new information, rather than static, unchangeable documents
+Responding to Change (The Priority): The focus is on embracing new requirements or feedback, even late in the project. Agile recognizes that things change: the market shifts, new ideas emerge, or initial assumptions prove incorrect. Being able to adapt quickly is a key advantage.
+Following a Plan (The Secondary Focus): A plan is a helpful starting point and roadmap, but it shouldn't be treated as an unchangeable law. If new information suggests the original plan is no longer the best path, the team should update the plan rather than blindly following it off a cliff.
+
 
