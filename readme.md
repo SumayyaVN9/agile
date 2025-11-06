@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of Contents
 - [Module- 1](#module-i-agile-basics--software-product-lifecycle)
 - [Module-2](#module-2---kanban-principles--practices)
 
@@ -338,332 +338,269 @@ In Agile, **Iterative** and **Incremental** approaches work together for continu
 ---
 
 
-# Module 2 - Kanban Principles & Practices
+# Module II: Kanban Principles & Practices
 
-| No.   | Question                                                                                          | Why Important / Exam Trend                                                      |
-| ----- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **1** | **Explain the Kanban board with a neat diagram. Describe the workflow.**                          | **Repeated every year**, scoring question — draw 3-column board for full marks. |
-| **2** | **What are WIP limits? Explain their importance in Kanban.**                                      | Short + Long repeated question. Easy scoring.                                   |
-| **3** | **Differentiate between Lead Time and Cycle Time with examples.**                                 | Very frequently asked as 2 marks / 5 marks.                                     |
-| **4** | **Explain Cumulative Flow Diagram (CFD) and how it helps in identifying bottlenecks.**            | High scoring 5-mark question.                                                   |
-| **5** | **Explain the principles of Kanban.**                                                             | Direct theory question, often asked.                                            |
-| **6** | **Discuss 'Continuous Improvement (Kaizen)' in Kanban.**                                          | Common 5-mark conceptual question.                                              |
-| **7** | **Compare Scrum and Kanban.**                                                                     | Frequently asked in Part B (5 marks).                                           |
-| **8** | **Illustrate a Kanban workflow model for a support / food delivery / student management system.** | **Case-based question** → Can come in Part C (10 marks).                        |
-
-
-10 or 5 mark questions 
-
-1) Kanban Board + Diagram + Workflow
-2) WIP Limits (Definition + Purpose + Example)
-3) Lead Time vs Cycle Time + CFDs
-4) Case Study: Draw a Kanban board for any real-life system
-
-
-🎯 Short Notes That Also Come Frequently (2 Marks)
-
-Define Kanban
-
-Pull system vs Push system
-
-Kaizen
-
-Throughput
-
+## Table of Contents
+- [Introduction to Kanban](#introduction-to-kanban)
+- [Kanban Board & Workflow](#kanban-board--workflow)
+- [WIP Limits](#wip-limits-work-in-progress)
+- [Lead Time vs Cycle Time](#lead-time-vs-cycle-time)
+- [Cumulative Flow Diagram](#cumulative-flow-diagram-cfd)
+- [Core Kanban Principles](#core-kanban-principles)
+- [Continuous Improvement (Kaizen)](#continuous-improvement-kaizen)
+- [Scrum vs Kanban](#scrum-vs-kanban)
+- [Real-World Kanban Workflows](#real-world-kanban-workflows)
+- [Key Concepts](#key-concepts)
+- [Exam Preparation](#exam-preparation)
 
 ---
 
-## 🧭 What is Kanban?
+## Introduction to Kanban
 
-**Kanban** is an **Agile methodology** used to manage and improve workflow efficiently.
-It helps teams **visualize their work**, **limit tasks in progress**, and **focus on continuous delivery** rather than big releases.
+### What is Kanban?
 
-In short:
+**Kanban** is an **Agile methodology** used to manage and improve workflow efficiently. It helps teams **visualize their work**, **limit tasks in progress**, and **focus on continuous delivery** rather than big releases.
 
 > **Kanban = Visual + Continuous + Flow-based project management**
 
+### Origin
+
+Kanban was originally developed by **Toyota** in the 1940s for **manufacturing** to track car parts in production. Later, it was adapted for **software development** and **project management**.
+
+### Core Philosophy
+
+Kanban enables teams to:
+- **Visualize work** through boards
+- **Limit work in progress** to prevent overload
+- **Manage flow** continuously
+- **Focus on delivery** without strict iterations
+
 ---
 
-## 🧩 Origin
+## Kanban Board & Workflow
 
-Kanban was originally developed by **Toyota** in the 1940s for **manufacturing** — to track car parts in production.
-Later, it was adapted for **software development** and **project management**.
+<p align="center">
+  <img src="Module-2-Images/Kanban-board-1.png" alt="Kanban Board" width="700"/>
+</p>
 
----
+### The Kanban Board
 
-## 🪧 The Kanban Board
-![Kanban - Board](Module-2-Images/Kanban-board-1.png)
-At the heart of Kanban is the **Kanban Board**, which visually represents the progress of work.
-It’s divided into columns, usually like this:
+At the heart of Kanban is the **Kanban Board**, which visually represents the progress of work. It's divided into columns representing workflow stages.
 
-| To Do              | In Progress           | Testing            | Done            |
-| :----------------- | :-------------------- | :----------------- | :-------------- |
+#### Basic Board Structure
+
+| To Do | In Progress | Testing | Done |
+|:------|:------------|:--------|:-----|
 | Tasks yet to start | Tasks being worked on | Tasks under review | Completed tasks |
 
 Each task is represented by a **card** (physical sticky note or digital card like in Trello/Jira).
 
----
+### How Kanban Works
 
-## ⚙️ How Kanban Works
+#### 1. Visualize Work
+Every task is placed on a Kanban board as a card.
 
-1. **Visualize Work**
-   Every task is placed on a Kanban board as a card.
-   → Example: “Design homepage,” “Fix login bug,” “Write API documentation.”
+**Example:** "Design homepage," "Fix login bug," "Write API documentation"
 
-2. **Limit Work in Progress (WIP)**
-   You set a limit for how many tasks can be in progress at once.
-   → Example: “Only 3 tasks can be ‘In Progress’ at a time.”
-   This prevents overloading and ensures focus.
+#### 2. Limit Work in Progress (WIP)
+Set a limit for how many tasks can be in progress at once.
 
-3. **Manage Flow**
-   As tasks move from left to right (To Do → In Progress → Done), the team tracks progress and removes bottlenecks.
-   → Example: If “Testing” always has many stuck tasks, the issue might be with QA capacity.
+**Example:** "Only 3 tasks can be 'In Progress' at a time"
 
-4. **Make Process Policies Explicit**
-   The team agrees on clear rules.
-   → Example: “A task can move to ‘Testing’ only after code review.”
+This prevents overloading and ensures focus.
 
-5. **Implement Feedback Loops**
-   Daily stand-ups or review meetings are used to discuss issues and improve flow.
+#### 3. Manage Flow
+As tasks move from left to right (To Do → In Progress → Done), the team tracks progress and removes bottlenecks.
 
-6. **Continuous Improvement (Kaizen)**
-   The team regularly reviews the board and process to improve efficiency and delivery speed.
+**Example:** If "Testing" always has many stuck tasks, the issue might be with QA capacity.
 
----
+#### 4. Make Process Policies Explicit
+The team agrees on clear rules.
 
-## 🧠 Example — Simple Software Team
+**Example:** "A task can move to 'Testing' only after code review"
 
-Imagine a small app development team working on a weather app.
+#### 5. Implement Feedback Loops
+Daily stand-ups or review meetings are used to discuss issues and improve flow.
 
-| To Do                | In Progress                   | Testing            | Done                |
-| -------------------- | ----------------------------- | ------------------ | ------------------- |
-| Create login screen  | Build API for weather data    | Fix search bar bug | Set up project repo |
-| Add location feature | Design UI for forecast screen |                    |                     |
+#### 6. Continuous Improvement (Kaizen)
+The team regularly reviews the board and process to improve efficiency and delivery speed.
+
+### Simple Software Team Example
+
+Imagine a small app development team working on a weather app:
+
+| To Do | In Progress | Testing | Done |
+|-------|-------------|---------|------|
+| Create login screen | Build API for weather data | Fix search bar bug | Set up project repo |
+| Add location feature | Design UI for forecast screen | | |
 
 **Workflow:**
-
-* When “Build API for weather data” is done, it moves to “Testing”.
-* “Design UI for forecast screen” can’t start until there’s a free slot in “In Progress” (WIP limit = 2).
-* Once testing is passed, tasks go to “Done”.
+- When "Build API for weather data" is done, it moves to "Testing"
+- "Design UI for forecast screen" can't start until there's a free slot in "In Progress" (WIP limit = 2)
+- Once testing is passed, tasks go to "Done"
 
 This keeps the workflow smooth and balanced.
 
----
+### Popular Kanban Tools
 
-## 💡 Key Principles of Kanban
+- **Trello**
+- **Jira**
+- **Asana** (with Kanban view)
+- **GitHub Projects**
 
-1. **Visualize your workflow** — use a board.
-2. **Limit work in progress (WIP)** — prevent overload.
-3. **Focus on flow** — ensure tasks move smoothly.
-4. **Continuous improvement** — review, adapt, improve.
+### Advantages of Kanban
 
----
+- ✅ Simple and visual — easy to understand
+- ✅ Flexible — no strict roles or sprints
+- ✅ Great for continuous delivery projects
+- ✅ Encourages teamwork and transparency
+- ✅ Immediate feedback on bottlenecks
 
-## 🧰 Tools for Kanban
+### Limitations
 
-* **Trello**
-* **Jira**
-* **Asana (with Kanban view)**
-* **GitHub Projects**
+- ⚠️ Hard to predict timelines (since it's flow-based)
+- ⚠️ Needs disciplined team members to update cards regularly
+- ⚠️ Can be too flexible for teams needing structure
 
----
+### Quick Summary
 
-## ✅ Advantages of Kanban
-
-* Simple and visual — easy to understand.
-* Flexible — no strict roles or sprints.
-* Great for continuous delivery projects.
-* Encourages teamwork and transparency.
-
----
-
-## ⚠️ Limitations
-
-* Hard to predict timelines (since it’s flow-based).
-* Needs disciplined team members to update cards regularly.
+| Aspect | Kanban Summary |
+|--------|----------------|
+| **Focus** | Continuous delivery and workflow management |
+| **Board** | Visual tool with columns for stages |
+| **Planning** | No fixed iterations (unlike Scrum) |
+| **Flexibility** | Very high |
+| **Best For** | Support, DevOps, or teams with frequent changes |
 
 ---
 
-### 🔍 In Short
+## WIP Limits (Work In Progress)
 
-| Aspect      | Kanban Summary                                  |
-| ----------- | ----------------------------------------------- |
-| Focus       | Continuous delivery and workflow management     |
-| Board       | Visual tool with columns for stages             |
-| Planning    | No fixed iterations (unlike Scrum)              |
-| Flexibility | Very high                                       |
-| Best For    | Support, DevOps, or teams with frequent changes |
+### Definition
 
----
+**WIP** stands for **Work In Progress**. A **WIP Limit** means setting a **maximum number of tasks** that can be worked on **at the same time** in any column on your Kanban board.
 
-### 💬 Real-Life Example
+> 👉 It controls how much work is being handled simultaneously.
 
-Let’s say your **college project** involves three teammates:
+### Purpose
 
-* One designs UI
-* One codes backend
-* One tests features
+The main goals of WIP limits are:
 
-Using a Kanban board, you can track who’s doing what, see what’s pending, and easily spot delays — like “Testing is stuck because backend isn’t ready.”
+1. **Prevent overload** – Ensures team members aren't juggling too many tasks at once
+2. **Improve focus** – People finish what they start instead of switching tasks
+3. **Identify bottlenecks** – If a column always hits its limit, that's where work is slowing down
+4. **Maintain steady flow** – Tasks move smoothly from start to finish
 
----
+> 💡 **Key Insight:** Do less at a time → Finish faster overall
 
- **WIP Limits** 
----
+### Example
 
-## 🧩 **Definition**
+Let's say your Kanban board looks like this:
 
-**WIP** stands for **Work In Progress**.
-A **WIP Limit** means setting a **maximum number of tasks** that can be worked on **at the same time** in any column (like “In Progress” or “Testing”) on your Kanban board.
-
-👉 It controls how much work is being handled simultaneously.
-
----
-
-## 🎯 **Purpose**
-
-The main goal of WIP limits is to:
-
-1. **Prevent overload** – ensures team members aren’t juggling too many tasks at once.
-2. **Improve focus** – people finish what they start instead of switching tasks.
-3. **Identify bottlenecks** – if a column always hits its limit, that’s where work is slowing down.
-4. **Maintain steady flow** – tasks move smoothly from start to finish.
-
-> 💡 In short: **Do less at a time → Finish faster overall.**
-
----
-
-## 🧠 **Example**
-
-Let’s say your Kanban board looks like this:
-
-| To Do  | In Progress (Limit = 2) | Testing (Limit = 1) | Done   |
-| ------ | ----------------------- | ------------------- | ------ |
-| Task 1 | Task 3                  | Task 5              | Task 2 |
-| Task 4 | Task 6                  |                     |        |
+| To Do | In Progress (Limit = 2) | Testing (Limit = 1) | Done |
+|-------|-------------------------|---------------------|------|
+| Task 1 | Task 3 | Task 5 | Task 2 |
+| Task 4 | Task 6 | | |
 
 Here:
-
-* The **“In Progress”** column has a **WIP Limit of 2**.
-  → So only **2 tasks** can be actively worked on at once.
-* Before starting a new task, one of the current tasks must move forward (to Testing or Done).
+- The **"In Progress"** column has a **WIP Limit of 2**
+- Only **2 tasks** can be actively worked on at once
+- Before starting a new task, one of the current tasks must move forward (to Testing or Done)
 
 This avoids starting too many tasks and helps focus on completing existing ones.
 
----
-
-## ⚙️ **Real-Life Analogy**
+### Real-Life Analogy: Cooking
 
 Imagine cooking:
-If you try to cook **five dishes at once**, you’ll burn something 🔥
-But if you cook **two at a time**, you finish all faster and better.
-That’s exactly what **WIP limits** do in Kanban.
+- If you try to cook **five dishes at once**, you'll burn something 🔥
+- But if you cook **two at a time**, you finish all faster and better
+
+That's exactly what **WIP limits** do in Kanban.
+
+### Summary
+
+| Term | Meaning |
+|------|---------|
+| **Definition** | A maximum number of tasks allowed in any stage at one time |
+| **Purpose** | To reduce multitasking, find bottlenecks, and keep workflow smooth |
+| **Example** | "In Progress" column has a WIP limit of 3 — can't start a 4th task until one finishes |
 
 ---
 
-### 🧭 **In Summary**
+## Lead Time vs Cycle Time
 
-| Term           | Meaning                                                                                |
-| -------------- | -------------------------------------------------------------------------------------- |
-| **Definition** | A maximum number of tasks allowed in any stage at one time.                            |
-| **Purpose**    | To reduce multitasking, find bottlenecks, and keep workflow smooth.                    |
-| **Example**    | “In Progress” column has a WIP limit of 3 — can’t start a 4th task until one finishes. |
+### Definitions
 
----
+| Term | Definition |
+|------|------------|
+| **Lead Time** | The **total time** taken from the moment a task is **requested** (added to "To Do") until it is **completed** ("Done") |
+| **Cycle Time** | The **actual working time** — the time taken from when work on a task **starts** ("In Progress") until it is **completed** ("Done") |
 
- **Lead Time** and **Cycle Time** 
----
+### Simple Explanation
 
-## 🧭 **Definition**
+- **Lead Time** = Waiting time **+** Working time
+- **Cycle Time** = Only the **Working time**
 
-| Term           | Definition                                                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Lead Time**  | The **total time** taken from the moment a task is **requested** (added to the “To Do” list) until it is **completed** (“Done”).     |
-| **Cycle Time** | The **actual working time** — the time taken from when work on a task **starts** (“In Progress”) until it is **completed** (“Done”). |
+### Example: Building a Login Page
 
----
+Let's say:
+- You add task "Build Login Page" to **To Do** list on **1st Nov**
+- Work on it starts on **4th Nov**
+- The task is completed on **8th Nov**
 
-## 🧩 **In Simple Words**
+| Term | Calculation | Result |
+|------|-------------|--------|
+| **Lead Time** | From 1st Nov (requested) → 8th Nov (completed) | **7 days** |
+| **Cycle Time** | From 4th Nov (started) → 8th Nov (completed) | **4 days** |
 
-* **Lead Time** = Waiting time **+** Working time
-* **Cycle Time** = Only the **Working time**
+### Purpose
 
----
+| Term | Purpose |
+|------|---------|
+| **Lead Time** | Measures how long a customer or manager waits for a request to be delivered |
+| **Cycle Time** | Measures team efficiency — how fast the team completes a task once they start it |
 
-## 🧠 **Example**
+### Real-Life Analogy: Pizza Delivery 🍕
 
-Let’s say:
+Imagine you order a pizza:
+- You place the order at **6:00 PM**
+- The chef starts cooking at **6:15 PM**
+- Pizza arrives at **6:45 PM**
 
-* You add a task “Build Login Page” to your **To Do** list on **1st Nov**.
-* Work on it starts on **4th Nov**.
-* The task is completed on **8th Nov**.
-
-Now:
-
-| Term           | Calculation                                    | Result     |
-| -------------- | ---------------------------------------------- | ---------- |
-| **Lead Time**  | From 1st Nov (requested) → 8th Nov (completed) | **7 days** |
-| **Cycle Time** | From 4th Nov (started) → 8th Nov (completed)   | **4 days** |
-
----
-
-## 🎯 **Purpose**
-
-| Term           | Purpose                                                                           |
-| -------------- | --------------------------------------------------------------------------------- |
-| **Lead Time**  | Measures how long a customer or manager waits for a request to be delivered.      |
-| **Cycle Time** | Measures team efficiency — how fast the team completes a task once they start it. |
-
----
-
-## 🧩 **Analogy (Real Life)**
-
-Imagine you order a pizza 🍕:
-
-* You place the order at **6:00 PM**.
-* The chef starts cooking at **6:15 PM**.
-* Pizza arrives at **6:45 PM**.
-
-| Term           | Meaning                                                          | Time           |
-| -------------- | ---------------------------------------------------------------- | -------------- |
-| **Lead Time**  | From when you ordered (6:00) to when you got it (6:45)           | **45 minutes** |
+| Term | Meaning | Time |
+|------|---------|------|
+| **Lead Time** | From when you ordered (6:00) to when you got it (6:45) | **45 minutes** |
 | **Cycle Time** | From when cooking started (6:15) to when it was delivered (6:45) | **30 minutes** |
 
----
+### Formula Summary
 
-## 🧮 **Formula Summary**
+| Term | Formula |
+|------|---------|
+| **Lead Time** | Task Completion Date − Task Creation Date |
+| **Cycle Time** | Task Completion Date − Work Start Date |
 
-| Term           | Formula                                   |
-| -------------- | ----------------------------------------- |
-| **Lead Time**  | Task Completion Date − Task Creation Date |
-| **Cycle Time** | Task Completion Date − Work Start Date    |
+### Key Takeaway
 
----
-
-✅ **In Short:**
-
-> * **Lead Time** = Total waiting + working time
-> * **Cycle Time** = Only working time after task starts
+> - **Lead Time** = Total waiting + working time
+> - **Cycle Time** = Only working time after task starts
 
 ---
 
-Sure! Let’s understand the **Cumulative Flow Diagram (CFD)** in simple terms 👇
+## Cumulative Flow Diagram (CFD)
 
----
+<p align="center">
+  <img src="Module-2-Images/cumulative-flow-diagram-agile.png" alt="Cumulative Flow Diagram" width="700"/>
+</p>
 
-## 🧩 **What is a Cumulative Flow Diagram (CFD)?**
+### What is a CFD?
 
-A **Cumulative Flow Diagram (CFD)** is a **visual chart** used in **Kanban** and **Agile** to show how tasks are moving through different stages (like *To Do*, *In Progress*, *Testing*, *Done*) **over time**.
+A **Cumulative Flow Diagram (CFD)** is a **visual chart** used in **Kanban** and **Agile** to show how tasks are moving through different stages over time.
 
 It helps teams **see the overall flow of work** and easily **spot bottlenecks or delays**.
 
----
+### How It Looks
 
-## 🧭 **How it Looks**
-
-![Cumulative-flow-diagram](Module-2-Images/cumulative-flow-diagram-agile.png)
-
-It’s usually a **stacked area chart** like this:
+It's usually a **stacked area chart** like this:
 
 ```
 ↑ Number of Tasks
@@ -677,429 +614,426 @@ It’s usually a **stacked area chart** like this:
 
 Each colored band represents the number of tasks in that stage over time.
 
----
+### How It Works
 
-## 🧠 **How It Works**
+- The **X-axis** shows **time** (days, weeks, etc.)
+- The **Y-axis** shows the **number of tasks**
+- Each **colored layer** represents a **workflow stage** (To Do, In Progress, Done)
+- As time passes, the colored areas grow — showing how tasks are added and completed
 
-* The **X-axis** shows **time** (days, weeks, etc.).
-* The **Y-axis** shows the **number of tasks**.
-* Each **colored layer** represents a **workflow stage** (To Do, In Progress, Done).
-* As time passes, the colored areas grow — showing how tasks are added and completed.
+### Identifying Bottlenecks with CFD
 
----
+| Observation in CFD | What It Means |
+|-------------------|---------------|
+| A band (e.g., "In Progress") keeps **getting wider** | Work is stuck there → **bottleneck** |
+| Bands are **parallel and stable** | Work is flowing smoothly |
+| "Done" band is **flat** | Team isn't finishing tasks regularly |
+| Large **gap between To Do and Done** | Too much work in progress; team is overloaded |
 
-## 🧩 **Example**
-
-Let’s say your team’s workflow is:
-**To Do → In Progress → Testing → Done**
+### Example Scenario
 
 If your CFD shows:
+- "To Do" area is getting **wider** → Tasks are piling up, not starting
+- "In Progress" area is **growing faster than others** → Too many tasks started, not finished
+- "Done" area is **steady or flat** → Work isn't getting completed quickly
 
-* “To Do” area is getting **wider** → tasks are piling up, not starting.
-* “In Progress” area is **growing faster than others** → too many tasks started, not finished.
-* “Done” area is **steady or flat** → work isn’t getting completed quickly.
+That means there's a **bottleneck** in your process.
 
-That means there’s a **bottleneck** in your process.
+### Purpose of CFD
 
----
+1. **Visualize workflow health** – See how tasks move through each stage
+2. **Spot bottlenecks** – Find where tasks are getting delayed
+3. **Measure stability** – Consistent, parallel bands mean a steady flow
+4. **Predict delivery** – Helps estimate when future work will be done based on flow trends
 
-## 🔍 **How CFD Helps Identify Bottlenecks**
-
-| Observation in CFD                                   | What It Means                                 |
-| ---------------------------------------------------- | --------------------------------------------- |
-| A band (e.g., “In Progress”) keeps **getting wider** | Work is stuck there → **bottleneck**          |
-| Bands are **parallel and stable**                    | Work is flowing smoothly                      |
-| “Done” band is **flat**                              | Team isn’t finishing tasks regularly          |
-| Large **gap between To Do and Done**                 | Too much work in progress; team is overloaded |
-
----
-
-## 🎯 **Purpose of CFD**
-
-1. **Visualize workflow health** – see how tasks move through each stage.
-2. **Spot bottlenecks** – find where tasks are getting delayed.
-3. **Measure stability** – consistent, parallel bands mean a steady flow.
-4. **Predict delivery** – helps estimate when future work will be done based on flow trends.
-
----
-
-## 🧮 **Example (Simple Scenario)**
+### Simple Example
 
 Suppose:
+- On Monday → 5 tasks in *To Do*
+- Wednesday → 8 tasks in *In Progress*
+- Friday → 10 tasks in *Done*
 
-* On Monday → 5 tasks in *To Do*
-* Wednesday → 8 tasks in *In Progress*
-* Friday → 10 tasks in *Done*
+If "In Progress" grows faster than "Done," your team is **starting too much** but **finishing too little** — a **bottleneck** in active work.
 
-If “In Progress” grows faster than “Done,” your team is **starting too much** but **finishing too little** — a **bottleneck** in active work.
+### Summary
 
----
+| Term | Explanation |
+|------|-------------|
+| **Cumulative Flow Diagram (CFD)** | A stacked area chart showing how many tasks are in each workflow stage over time |
+| **Use** | Tracks work progress and finds delays |
+| **Bottleneck Sign** | A widening area for one stage means work is getting stuck there |
 
-## ✅ **In Short**
-
-| Term                              | Explanation                                                                       |
-| --------------------------------- | --------------------------------------------------------------------------------- |
-| **Cumulative Flow Diagram (CFD)** | A stacked area chart showing how many tasks are in each workflow stage over time. |
-| **Use**                           | Tracks work progress and finds delays.                                            |
-| **Bottleneck Sign**               | A widening area for one stage means work is getting stuck there.                  |
-
----
-
-💡 **Simple takeaway:**
-
-> A **CFD** helps you **see where work slows down** — so you can fix the bottlenecks and keep your workflow smooth.
-
----
- **four main Kanban principles** 
-
+> 💡 **Key Takeaway:** A **CFD** helps you **see where work slows down** — so you can fix the bottlenecks and keep your workflow smooth.
 
 ---
 
-## ⚙️ **Kanban Principles (Simplified Explanation)**
+## Core Kanban Principles
 
-### **1. Start with the Existing Process**
+### The Four Main Principles
 
-* **Meaning:** Don’t throw away your current system or workflow. Begin from what you already have and improve it step by step.
-* **Why:** It saves time, avoids confusion, and helps people adapt easily.
-* **Example:**
-  A software team already uses Trello to manage tasks. Instead of switching to a new tool, they start applying Kanban principles to the same Trello board — just add WIP limits and track flow.
+#### 1. Start with the Existing Process
 
----
+**Meaning:** Don't throw away your current system or workflow. Begin from what you already have and improve it step by step.
 
-### **2. Agree to Pursue Incremental and Evolutionary Change**
+**Why:** It saves time, avoids confusion, and helps people adapt easily.
 
-* **Meaning:** Make **small, continuous improvements** instead of large, sudden changes.
-* **Why:** Small changes are easier to test, manage, and accept by the team.
-* **Example:**
-  Instead of redesigning the entire workflow, the team decides to first reduce the number of “In Progress” tasks from 6 to 4 and see if speed improves.
+**Example:** A software team already uses Trello to manage tasks. Instead of switching to a new tool, they start applying Kanban principles to the same Trello board — just add WIP limits and track flow.
 
----
+#### 2. Agree to Pursue Incremental and Evolutionary Change
 
-### **3. Respect the Current Roles, Responsibilities & Titles**
+**Meaning:** Make **small, continuous improvements** instead of large, sudden changes.
 
-* **Meaning:** Don’t immediately change job titles or team structure. Keep people’s roles the same while improving how they work together.
-* **Why:** This avoids conflict and resistance among team members.
-* **Example:**
-  The QA tester remains a tester, the developer remains a developer — but now they collaborate through the Kanban board instead of waiting for handovers.
+**Why:** Small changes are easier to test, manage, and accept by the team.
 
----
+**Example:** Instead of redesigning the entire workflow, the team decides to first reduce the number of "In Progress" tasks from 6 to 4 and see if speed improves.
 
-### **4. Encourage Leadership at All Levels**
+#### 3. Respect the Current Roles, Responsibilities & Titles
 
-* **Meaning:** Anyone — regardless of rank — can contribute ideas to improve the workflow.
-* **Why:** Promotes creativity, motivation, and shared ownership.
-* **Example:**
-  A junior developer suggests using automation for testing to save time — the team accepts the idea and implements it.
+**Meaning:** Don't immediately change job titles or team structure. Keep people's roles the same while improving how they work together.
 
----
+**Why:** This avoids conflict and resistance among team members.
 
-## 🧭 **In Short**
+**Example:** The QA tester remains a tester, the developer remains a developer — but now they collaborate through the Kanban board instead of waiting for handovers.
 
-| Principle                               | What It Means                                  | Example                                          |
-| --------------------------------------- | ---------------------------------------------- | ------------------------------------------------ |
-| **Start with the existing process**     | Use your current system and improve from there | Begin Kanban on your existing Trello board       |
-| **Incremental and evolutionary change** | Make small, continuous improvements            | Reduce WIP gradually                             |
-| **Respect current roles & titles**      | Don’t force role changes                       | Keep team roles the same while improving process |
-| **Leadership at all levels**            | Everyone can contribute ideas                  | Junior member’s idea gets implemented            |
+#### 4. Encourage Leadership at All Levels
 
----
+**Meaning:** Anyone — regardless of rank — can contribute ideas to improve the workflow.
 
-✅ **Summary:**
+**Why:** Promotes creativity, motivation, and shared ownership.
 
-> Kanban is not about replacing systems — it’s about improving them gradually, respecting people, and encouraging everyone to lead through ideas.
+**Example:** A junior developer suggests using automation for testing to save time — the team accepts the idea and implements it.
+
+### Principles Summary
+
+| Principle | What It Means | Example |
+|-----------|---------------|---------|
+| **Start with the existing process** | Use your current system and improve from there | Begin Kanban on your existing Trello board |
+| **Incremental and evolutionary change** | Make small, continuous improvements | Reduce WIP gradually |
+| **Respect current roles & titles** | Don't force role changes | Keep team roles the same while improving process |
+| **Leadership at all levels** | Everyone can contribute ideas | Junior member's idea gets implemented |
+
+> ✅ **Summary:** Kanban is not about replacing systems — it's about improving them gradually, respecting people, and encouraging everyone to lead through ideas.
 
 ---
 
----
+## Continuous Improvement (Kaizen)
 
-## 🔁 **Continuous Improvement (Kaizen) in Kanban**
+### Meaning
 
-### 💡 **Meaning**
+**Kaizen** is a Japanese term that means **"change for better"** — or simply, **continuous improvement**.
 
-**Kaizen** is a Japanese term that means **“change for better”** — or simply, **continuous improvement**.
 In Kanban, it means the team is always looking for small ways to make their process faster, smoother, and more efficient.
 
----
+### How It Works in Kanban
 
-### ⚙️ **How It Works in Kanban**
-
-Kanban is not about making one big change — it’s about **making small, continuous improvements** based on data and feedback.
+Kanban is not about making one big change — it's about **making small, continuous improvements** based on data and feedback.
 
 Teams use their **Kanban board** and **metrics** (like lead time, cycle time, and cumulative flow diagrams) to spot where work is slowing down — and then improve those areas.
 
----
+### Steps of Continuous Improvement
 
-### 🔍 **Steps of Continuous Improvement in Kanban**
+1. **Observe the current workflow** – Look at the Kanban board and see how tasks are moving
+2. **Identify bottlenecks or problems** – For example, tasks pile up in the "Testing" column
+3. **Discuss as a team** – Talk about why it's happening and how to fix it
+4. **Implement a small change** – Maybe add an extra tester or limit new tasks until old ones are done
+5. **Review the results** – Check if the change helped; if yes, keep it; if not, try another idea
 
-1. **Observe the current workflow** – Look at the Kanban board and see how tasks are moving.
-2. **Identify bottlenecks or problems** – For example, tasks pile up in the “Testing” column.
-3. **Discuss as a team** – Talk about why it’s happening and how to fix it.
-4. **Implement a small change** – Maybe add an extra tester or limit new tasks until old ones are done.
-5. **Review the results** – Check if the change helped; if yes, keep it; if not, try another idea.
+### Example
 
----
+A mobile app team notices that tasks often stay too long in "Code Review."
 
-### 🧠 **Example**
-
-A mobile app team notices that tasks often stay too long in “Code Review.”
 They:
+- Add a WIP limit of **2** for "Code Review"
+- Hold a daily short meeting to review blocked tasks
 
-* Add a WIP limit of **2** for “Code Review.”
-* Hold a daily short meeting to review blocked tasks.
-  After a week, the flow becomes smoother — this is **Kaizen in action**.
+After a week, the flow becomes smoother — this is **Kaizen in action**.
 
----
+### Why Kaizen Matters
 
-### 📈 **Why Kaizen Matters in Kanban**
+| Benefit | Description |
+|---------|-------------|
+| **Improves efficiency** | Small improvements remove waste over time |
+| **Reduces risk** | Changes are gradual — less chance of failure |
+| **Boosts morale** | Everyone contributes ideas for improvement |
+| **Adapts to change** | Teams stay flexible and ready for new challenges |
 
-| Benefit                 | Description                                       |
-| ----------------------- | ------------------------------------------------- |
-| **Improves efficiency** | Small improvements remove waste over time.        |
-| **Reduces risk**        | Changes are gradual — less chance of failure.     |
-| **Boosts morale**       | Everyone contributes ideas for improvement.       |
-| **Adapts to change**    | Teams stay flexible and ready for new challenges. |
-
----
-
-### ✅ **In Short**
+### Key Takeaway
 
 > **Kaizen in Kanban = Small, ongoing improvements made by everyone to enhance workflow efficiency and quality.**
 
-
 ---
 
-## ⚔️ **Scrum vs Kanban (Comparison Table)**
-![scrum vs kanban](Module-2-Images/Scrm-V-kaban.webp)
-| **Aspect**                  | **Scrum**                                                                              | **Kanban**                                                                   |
-| --------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Definition**              | A framework for managing work in **fixed-length iterations (Sprints)**                 | A **visual flow-based** method for managing continuous work                  |
-| **Approach**                | **Iterative** — work is done in short cycles (usually 2–4 weeks)                       | **Continuous flow** — work items move through stages without fixed timeboxes |
-| **Roles**                   | Has **defined roles** – Scrum Master, Product Owner, and Development Team              | No specific roles are defined; team members share responsibilities           |
-| **Planning**                | Work is planned at the start of each sprint                                            | Work is planned continuously as capacity becomes available                   |
-| **Work In Progress (WIP)**  | WIP is controlled **per sprint** (fixed amount of work)                                | WIP is controlled **per workflow stage** (set limits on columns)             |
-| **Meetings**                | Requires fixed meetings – Daily Standup, Sprint Planning, Sprint Review, Retrospective | Meetings are **not mandatory**, but feedback loops are encouraged            |
-| **Change during execution** | Changes are **not allowed** within a sprint                                            | Changes can be made anytime as workflow is flexible                          |
-| **Measurement Metrics**     | Measured by **Velocity** (how many story points per sprint)                            | Measured by **Lead Time, Cycle Time, and Flow Efficiency**                   |
-| **Board Structure**         | Scrum Board resets after each sprint                                                   | Kanban Board is continuous and never resets                                  |
-| **Best suited for**         | Teams that prefer **structured, time-bound development**                               | Teams that prefer **flexible, continuous delivery**                          |
-| **Example**                 | Developing a new mobile app feature over a 2-week sprint                               | Continuously fixing bugs and improving an existing app                       |
+## Scrum vs Kanban
 
----
+<p align="center">
+  <img src="Module-2-Images/Scrm-V-kaban.webp" alt="Scrum vs Kanban" width="750"/>
+</p>
 
-## 🧠 **Simple Way to Remember**
+### Detailed Comparison
 
-> * 🕓 **Scrum = Sprints (time-boxed cycles)**
-> * 🔄 **Kanban = Continuous flow (no time-box)**
+| **Aspect** | **Scrum** | **Kanban** |
+|------------|-----------|------------|
+| **Definition** | A framework for managing work in **fixed-length iterations (Sprints)** | A **visual flow-based** method for managing continuous work |
+| **Approach** | **Iterative** — work is done in short cycles (usually 2–4 weeks) | **Continuous flow** — work items move through stages without fixed timeboxes |
+| **Roles** | Has **defined roles** – Scrum Master, Product Owner, and Development Team | No specific roles are defined; team members share responsibilities |
+| **Planning** | Work is planned at the start of each sprint | Work is planned continuously as capacity becomes available |
+| **Work In Progress (WIP)** | WIP is controlled **per sprint** (fixed amount of work) | WIP is controlled **per workflow stage** (set limits on columns) |
+| **Meetings** | Requires fixed meetings – Daily Standup, Sprint Planning, Sprint Review, Retrospective | Meetings are **not mandatory**, but feedback loops are encouraged |
+| **Change during execution** | Changes are **not allowed** within a sprint | Changes can be made anytime as workflow is flexible |
+| **Measurement Metrics** | Measured by **Velocity** (how many story points per sprint) | Measured by **Lead Time, Cycle Time, and Flow Efficiency** |
+| **Board Structure** | Scrum Board resets after each sprint | Kanban Board is continuous and never resets |
+| **Best suited for** | Teams that prefer **structured, time-bound development** | Teams that prefer **flexible, continuous delivery** |
+| **Example** | Developing a new mobile app feature over a 2-week sprint | Continuously fixing bugs and improving an existing app |
 
----
+### Simple Way to Remember
 
-### 🧩 **Example Scenario**
+> - 🕓 **Scrum = Sprints (time-boxed cycles)**
+> - 🔄 **Kanban = Continuous flow (no time-box)**
 
-* A **Scrum team** working on a new e-commerce feature will plan tasks for a 2-week sprint and commit to finishing them before moving to the next sprint.
-* A **Kanban team** managing customer support tickets will continuously pick up new tickets as they become free — no sprint boundaries.
+### Example Scenario
 
----
+- A **Scrum team** working on a new e-commerce feature will plan tasks for a 2-week sprint and commit to finishing them before moving to the next sprint.
+- A **Kanban team** managing customer support tickets will continuously pick up new tickets as they become free — no sprint boundaries.
 
-### ✅ **In Short**
+### Key Takeaway
 
-> **Scrum** gives structure and time-based goals.
+> **Scrum** gives structure and time-based goals.  
 > **Kanban** gives flexibility and visual control over workflow.
 
 ---
 
----
+## Real-World Kanban Workflows
 
-## 🍔 **1. Kanban Workflow – Food Delivery System**
-![kanban-example](Module-2-Images/kanban-cooking.jpg)
-### 📋 **Workflow Stages**
+### 1. Food Delivery System 🍔
 
-| Stage                     | Description                                   |
-| ------------------------- | --------------------------------------------- |
-| **Order Received**        | Customer places an order via app/website.     |
-| **Order Confirmed**       | Restaurant accepts and starts preparing.      |
-| **Cooking / Preparation** | Chef prepares the food.                       |
-| **Ready for Pickup**      | Food packed and waiting for delivery partner. |
-| **Out for Delivery**      | Delivery partner is on the way.               |
-| **Delivered**             | Customer receives food, order completed.      |
+<p align="center">
+  <img src="Module-2-Images/kanban-cooking.jpg" alt="Kanban Food Delivery" width="650"/>
+</p>
 
-### 🧭 **Example Flow**
+#### Workflow Stages
+
+| Stage | Description |
+|-------|-------------|
+| **Order Received** | Customer places an order via app/website |
+| **Order Confirmed** | Restaurant accepts and starts preparing |
+| **Cooking / Preparation** | Chef prepares the food |
+| **Ready for Pickup** | Food packed and waiting for delivery partner |
+| **Out for Delivery** | Delivery partner is on the way |
+| **Delivered** | Customer receives food, order completed |
+
+#### Example Flow
 
 ```
 [ Order Received ] → [ Confirmed ] → [ Cooking ] → [ Ready for Pickup ] → [ Out for Delivery ] → [ Delivered ✅ ]
 ```
 
 **WIP Limit Example:**
-
-* Cooking: Max 5 orders at a time (to maintain quality and speed).
+- Cooking: Max 5 orders at a time (to maintain quality and speed)
 
 **Kaizen Example:**
-
-* If “Ready for Pickup” gets crowded, they might add more delivery partners.
+- If "Ready for Pickup" gets crowded, they might add more delivery partners
 
 ---
 
-## 🧑‍🎓 **2. Kanban Workflow – Student Management System**
-![student](Module-2-Images/kanban-student.jpg)
-### 📋 **Workflow Stages**
+### 2. Student Management System 🎓
 
-| Stage                          | Description                                 |
-| ------------------------------ | ------------------------------------------- |
-| **Admission Request Received** | Student applies for admission.              |
-| **Application Under Review**   | Admin verifies documents.                   |
-| **Interview / Test Scheduled** | Student is called for evaluation.           |
-| **Selected / Rejected**        | Decision is made.                           |
-| **Fee Payment & Enrollment**   | Student pays fees and gets enrolled.        |
-| **Active Student**             | Student officially part of the institution. |
+<p align="center">
+  <img src="Module-2-Images/kanban-student.jpg" alt="Kanban Student Management" width="650"/>
+</p>
 
-### 🧭 **Example Flow**
+#### Workflow Stages
+
+| Stage | Description |
+|-------|-------------|
+| **Admission Request Received** | Student applies for admission |
+| **Application Under Review** | Admin verifies documents |
+| **Interview / Test Scheduled** | Student is called for evaluation |
+| **Selected / Rejected** | Decision is made |
+| **Fee Payment & Enrollment** | Student pays fees and gets enrolled |
+| **Active Student** | Student officially part of the institution |
+
+#### Example Flow
 
 ```
 [ Request Received ] → [ Under Review ] → [ Test Scheduled ] → [ Selected ] → [ Fee Paid ] → [ Active Student ✅ ]
 ```
 
 **WIP Limit Example:**
-
-* Only 10 applications can be “Under Review” at once to avoid overload.
+- Only 10 applications can be "Under Review" at once to avoid overload
 
 **Kaizen Example:**
-
-* If “Under Review” keeps getting delayed, the team may add one more staff member for verification.
+- If "Under Review" keeps getting delayed, the team may add one more staff member for verification
 
 ---
 
-## 💬 **3. Kanban Workflow – Customer Support System**
-![cusomer-supoprt](Module-2-Images/customer-support.jpg)
-### 📋 **Workflow Stages**
+### 3. Customer Support System 💬
 
-| Stage                             | Description                        |
-| --------------------------------- | ---------------------------------- |
-| **Ticket Created**                | User submits issue.                |
-| **Assigned to Agent**             | Ticket given to a support agent.   |
-| **In Progress**                   | Agent working on the issue.        |
-| **Waiting for Customer Response** | Agent needs more info.             |
-| **Resolved**                      | Problem fixed.                     |
-| **Closed**                        | Customer confirms issue is solved. |
+<p align="center">
+  <img src="Module-2-Images/customer-support.jpg" alt="Kanban Customer Support" width="650"/>
+</p>
 
-### 🧭 **Example Flow**
+#### Workflow Stages
+
+| Stage | Description |
+|-------|-------------|
+| **Ticket Created** | User submits issue |
+| **Assigned to Agent** | Ticket given to a support agent |
+| **In Progress** | Agent working on the issue |
+| **Waiting for Customer Response** | Agent needs more info |
+| **Resolved** | Problem fixed |
+| **Closed** | Customer confirms issue is solved |
+
+#### Example Flow
 
 ```
 [ Ticket Created ] → [ Assigned ] → [ In Progress ] → [ Waiting for Response ] → [ Resolved ] → [ Closed ✅ ]
 ```
 
 **WIP Limit Example:**
-
-* Each support agent handles maximum 3 active tickets at a time.
+- Each support agent handles maximum 3 active tickets at a time
 
 **Kaizen Example:**
-
-* If tickets get stuck in “Waiting for Customer,” they might introduce automated reminders.
-
----
-
-## ✅ **Summary: Key Features in All Kanban Workflows**
-
-| Concept        | Description                                           |
-| -------------- | ----------------------------------------------------- |
-| **Columns**    | Represent workflow stages                             |
-| **Cards**      | Represent tasks/orders/tickets                        |
-| **WIP Limits** | Restrict number of items in each stage                |
-| **Flow**       | Items move from left (start) to right (done)          |
-| **Goal**       | Ensure smooth, continuous progress with minimal delay |
-
+- If tickets get stuck in "Waiting for Customer," they might introduce automated reminders
 
 ---
 
-## ⚙️ **Pull System vs Push System**
+### Key Features in All Kanban Workflows
 
-| **Aspect**                       | **Push System**                                                                      | **Pull System (used in Kanban)**                                               |
-| -------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| **Definition**                   | Work is assigned or “pushed” to the next stage, regardless of capacity.              | Work is “pulled” by the next stage only when it has the capacity to handle it. |
-| **Who decides when to start?**   | The **previous stage** pushes work forward.                                          | The **next stage** pulls work when ready.                                      |
-| **Flow control**                 | Based on **schedule or plan**.                                                       | Based on **demand or capacity**.                                               |
-| **Risk**                         | Can create **overload** or **bottlenecks** if next stage is busy.                    | Avoids overload — each stage controls its own workload.                        |
-| **Example (Food Delivery)**      | The restaurant keeps cooking food even if delivery agents are busy — orders pile up. | The restaurant starts cooking only when a delivery partner is available.       |
-| **Example (Student Management)** | Admin keeps approving new admissions even if classes are full.                       | Admin allows new admissions only when seats are available.                     |
-| **Example (Customer Support)**   | System assigns tickets automatically even if agents are overloaded.                  | Agents pull a new ticket only after finishing current one.                     |
-| **Efficiency**                   | Lower efficiency due to waiting and backlog.                                         | Higher efficiency and smooth flow.                                             |
-| **Used in**                      | Traditional project management, manufacturing.                                       | Kanban, Lean, Just-in-Time systems.                                            |
+| Concept | Description |
+|---------|-------------|
+| **Columns** | Represent workflow stages |
+| **Cards** | Represent tasks/orders/tickets |
+| **WIP Limits** | Restrict number of items in each stage |
+| **Flow** | Items move from left (start) to right (done) |
+| **Goal** | Ensure smooth, continuous progress with minimal delay |
 
 ---
 
-### 🧠 **Simple Way to Remember**
+## Key Concepts
 
-* 🧱 **Push System:** “I’ll give you work whether you’re ready or not.”
-* 🧲 **Pull System:** “I’ll take work only when I’m ready for it.”
+### Pull System vs Push System
+
+| **Aspect** | **Push System** | **Pull System (Kanban)** |
+|------------|-----------------|--------------------------|
+| **Definition** | Work is assigned or "pushed" to the next stage, regardless of capacity | Work is "pulled" by the next stage only when it has capacity to handle it |
+| **Who decides when to start?** | The **previous stage** pushes work forward | The **next stage** pulls work when ready |
+| **Flow control** | Based on **schedule or plan** | Based on **demand or capacity** |
+| **Risk** | Can create **overload** or **bottlenecks** if next stage is busy | Avoids overload — each stage controls its own workload |
+| **Example (Food Delivery)** | Restaurant keeps cooking even if delivery agents are busy — orders pile up | Restaurant starts cooking only when a delivery partner is available |
+| **Example (Student Management)** | Admin keeps approving admissions even if classes are full | Admin allows new admissions only when seats are available |
+| **Example (Customer Support)** | System assigns tickets automatically even if agents are overloaded | Agents pull a new ticket only after finishing current one |
+| **Efficiency** | Lower efficiency due to waiting and backlog | Higher efficiency and smooth flow |
+| **Used in** | Traditional project management, manufacturing | Kanban, Lean, Just-in-Time systems |
+
+#### Simple Way to Remember
+
+- 🧱 **Push System:** "I'll give you work whether you're ready or not"
+- 🧲 **Pull System:** "I'll take work only when I'm ready for it"
+
+#### Real-Life Analogy: Restaurant Kitchen
+
+- **Push System:** The chef keeps making dishes even when waiters haven't served old ones — soon the counter is full
+- **Pull System:** The chef cooks only when a waiter takes a new order — no pile-up, food stays fresh
+
+> ✅ **Key Takeaway:** Kanban follows a Pull System — every team member pulls new work only when they have finished their current task. This ensures smooth workflow, no overload, and faster delivery.
 
 ---
 
-### 🍔 **Real-Life Analogy**
+### Throughput
 
-Imagine a **restaurant kitchen**:
+#### What is Throughput?
 
-* **Push System:** The chef keeps making dishes even when the waiters haven’t served old ones — soon the counter is full.
-* **Pull System:** The chef cooks only when a waiter takes a new order — no pile-up, food stays fresh.
+**Throughput** means the **number of tasks completed** in a given period of time. It tells you **how much work your team finishes**, not how fast individual tasks move.
 
----
-
-### ✅ **In Short**
-
-> **Kanban follows a Pull System** — every team member pulls new work only when they have finished their current task.
-> This ensures smooth workflow, no overload, and faster delivery.
-
----
-
-
-## ⚙️ **What is Throughput in Kanban?**
-
-**Throughput** means the **number of tasks completed** in a given period of time.  
-It tells you **how much work your team finishes**, not how fast individual tasks move.
-
----
-
-### 💡 **Simple Definition**
 > **Throughput = Total number of work items finished per unit of time**
 
----
+#### Examples
 
-### 🧠 **Example 1 – Customer Support**
-If your team **closes 25 tickets in one week**,  
-then your **throughput = 25 tickets/week.**
+**Example 1 – Customer Support:**  
+If your team **closes 25 tickets in one week**, then your **throughput = 25 tickets/week**
 
----
+**Example 2 – Food Delivery:**  
+If a restaurant delivers **120 orders in one day**, then **throughput = 120 orders/day**
 
-### 🍔 **Example 2 – Food Delivery**
-If a restaurant delivers **120 orders in one day**,  
-then **throughput = 120 orders/day.**
+**Example 3 – Student Management System:**  
+If the admission team approves **30 student applications in 5 days**, then **throughput = 6 applications/day**
 
----
+#### Why Throughput Matters
 
-### 🎓 **Example 3 – Student Management System**
-If the admission team approves **30 student applications in 5 days**,  
-then **throughput = 6 applications/day.**
-
----
-
-### 📈 **Why Throughput Matters**
 | Purpose | Explanation |
-|----------|--------------|
-| **Measures productivity** | Shows how much work is completed over time. |
-| **Helps forecasting** | Teams can estimate how much work they can finish in the next week or sprint. |
-| **Tracks improvement** | If throughput increases, your process is becoming more efficient. |
-| **Identifies bottlenecks** | Sudden drops in throughput mean some stage is slowing down. |
+|---------|-------------|
+| **Measures productivity** | Shows how much work is completed over time |
+| **Helps forecasting** | Teams can estimate how much work they can finish in the next week or sprint |
+| **Tracks improvement** | If throughput increases, your process is becoming more efficient |
+| **Identifies bottlenecks** | Sudden drops in throughput mean some stage is slowing down |
 
----
+#### Throughput vs Cycle Time
 
-### ⚖️ **Throughput vs Cycle Time**
 | Concept | What It Measures | Example |
-|----------|------------------|----------|
+|---------|------------------|---------|
 | **Throughput** | How many tasks completed per time | 20 tasks/week |
 | **Cycle Time** | How long one task takes to finish | 2 days/task |
 
----
+#### Key Takeaway
 
-### ✅ **In Short**
 > 🧩 **Throughput = Quantity of work done**  
 > ⏱️ **Cycle Time = Time taken per work item**
+
+---
+
+## Exam Preparation
+
+### High-Priority Questions (10 or 5 marks)
+
+| No. | Question | Marks | Why Important |
+|-----|----------|-------|---------------|
+| 1 | **Explain the Kanban board with a neat diagram. Describe the workflow.** | 5/10 | **Repeated every year** — draw 3-column board for full marks |
+| 2 | **What are WIP limits? Explain their importance in Kanban.** | 2/5 | Short + Long repeated question. Easy scoring |
+| 3 | **Differentiate between Lead Time and Cycle Time with examples.** | 2/5 | Very frequently asked |
+| 4 | **Explain Cumulative Flow Diagram (CFD) and how it helps in identifying bottlenecks.** | 5 | High scoring question |
+| 5 | **Explain the principles of Kanban.** | 5 | Direct theory question, often asked |
+| 6 | **Discuss 'Continuous Improvement (Kaizen)' in Kanban.** | 5 | Common conceptual question |
+| 7 | **Compare Scrum and Kanban.** | 5 | Frequently asked in Part B |
+| 8 | **Illustrate a Kanban workflow model for a support/food delivery/student management system.** | 10 | **Case-based question** — Can come in Part C |
+
+### Short Notes (2 Marks)
+
+- Define Kanban
+- Pull system vs Push system
+- Kaizen
+- Throughput
+- WIP limits
+- Cycle Time vs Lead Time
+
+### Key Focus Areas
+
+1. ✅ **Kanban Board Diagram** – Must be able to draw with workflow description
+2. ✅ **WIP Limits** – Definition, purpose, and example
+3. ✅ **Lead Time vs Cycle Time** – Clear differentiation with examples
+4. ✅ **Cumulative Flow Diagram** – Understanding bottleneck identification
+5. ✅ **Four Core Principles** – Start with existing, incremental change, respect roles, encourage leadership
+6. ✅ **Kaizen (Continuous Improvement)** – Concept and implementation
+7. ✅ **Scrum vs Kanban** – Major differences in table format
+8. ✅ **Real-world Case Studies** – Be ready to design Kanban workflow for any system
+
+### Quick Last-Minute Notes
+
+- **Kanban** = Visual workflow management with continuous delivery
+- **WIP Limits** = Control work in progress to maintain flow
+- **Pull System** = Work is pulled when ready, not pushed
+- **Lead Time** = Request to completion (includes waiting)
+- **Cycle Time** = Start to completion (only working time)
+- **CFD** = Visual chart to spot bottlenecks
+- **Kaizen** = Continuous small improvements
+- **Throughput** = Tasks completed per time period
+
+### Study Tips
+
+1. **Practice drawing** Kanban boards with proper columns and WIP limits
+2. **Memorize** the 4 core Kanban principles
+3. **Understand** the difference between Lead Time and Cycle Time with real examples
+4. **Be ready** to design a Kanban workflow for any given scenario (food delivery, student management, etc.)
+5. **Know** how to read and interpret a Cumulative Flow Diagram
 
 ---
 
