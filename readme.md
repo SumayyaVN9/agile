@@ -141,7 +141,7 @@ Lean originates from **Toyota manufacturing** and focuses on **reducing waste**.
 ## Agile-manifesto Values
 
 The Agile Manifesto, created in 2001 by 17 software developers, outlines four core values that prioritize adaptability, collaboration, and the delivery of value to the customer over rigid, traditional methods. The values are expressed as priorities: "we value the items on the left more than the items on the right".
- [alt text](Module-1-images/4-Values-of-Agile-Manifesto-for-Software-Development.jpg)
+![alt text](Module-1-images/4-Values-of-Agile-Manifesto-for-Software-Development.jpg)
 The four values are:
 1. Individuals and Interactions over Processes and Tools 
 This value emphasizes that the people on a team and their ability to communicate and collaborate effectively are more important than the specific processes they follow or the tools they use. While processes and tools can provide structure, they are ineffective without motivated individuals who can communicate fluidly to respond to business needs and solve problems. 
@@ -166,7 +166,7 @@ Following a Plan (The Secondary Focus): A plan is a helpful starting point and r
 In **Agile development**, the **Iterative** and **Incremental** approaches are two key concepts that work together to ensure continuous improvement and faster delivery. Let’s break them down clearly 👇
 
 ---
-![Incremental vs iterative](Module-1/incremental-vs-iterative.png)
+![alt text](Module-1-images/incremental-vs-iterative.png)
 ### 🌀 **Iterative Development**
 
 * **Meaning:**
