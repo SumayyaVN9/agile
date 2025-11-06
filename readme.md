@@ -250,3 +250,58 @@ Increment	Feature Added
 That’s incremental development — adding new features over time.
 
 
+## Lean Software Developement
+
+What is LSD?
+Lean Software Development (LSD) is an approach derived from lean manufacturing principles aimed at optimizing efficiency and minimizing waste in the software development process.
+
+Prevent Defects: It integrates quality assurance throughout the development process to prevent defects.
+Eliminate Waste: It focuses on activities that add value to the customer and eliminates those activities that do not add value.
+Fast Delivery: Reduces cycle time to deliver software quickly and respond to feedback and changing requirements rapidly.
+Delay Decisions: Delay decisions until they can be made based on facts.
+
+![Lean principles](Module-1-images/7-Principles-of-Lean-Software-Development.jpg)
+
+1. Eliminate Waste
+
+In Lean Software Development, waste means anything that doesn’t add value to the customer or slows down the process. Examples include unnecessary code, long delays, unclear communication, or doing extra work that isn’t needed.
+To remove waste, project managers hold regular meetings where team members can point out issues and suggest improvements for the next cycle.
+Example: Removing unused features or automating tasks to save time.
+
+2. Fast Delivery
+
+Instead of spending months planning big projects, Lean focuses on building a small working version of the product quickly—called a Minimum Viable Product (MVP). This version has only the most important features.
+It is released early to get feedback from users, which helps the team improve the product faster.
+Example: A company builds a simple version of an app, launches it, collects feedback, and then adds more useful features later.
+
+3. Amplify Learning
+
+Lean encourages teams to keep learning throughout the project. This happens through code reviews, meetings, and sharing knowledge between team members.
+Practices like pair programming ensure that knowledge is not limited to one person but shared among the team.
+Example: Two developers work together on a task so both understand the code and can continue the work if one is unavailable.
+
+4. Build Quality In
+
+Quality should be checked from the beginning, not at the end. Developers often use Test-Driven Development (TDD), where they write tests before writing the actual code.
+Constant feedback from the team helps identify and fix problems early, reducing rework later.
+Example: Developers run automated tests every time they make changes to make sure nothing breaks.
+
+5. Respect Teamwork
+
+Lean focuses on trusting and empowering the team rather than controlling them. A respectful and supportive environment helps everyone do their best work.
+When deadlines are tight or new members join, teamwork and communication become even more important.
+Example: Allowing team members to make decisions about their own work builds motivation and creativity.
+
+6. Delay Commitment
+
+Instead of making big decisions too early, Lean suggests waiting until you have enough information. This helps avoid mistakes and wasted effort.
+Software is built flexibly so that changes can be made easily as new information or user feedback becomes available.
+Example: Waiting to choose a specific database system until you know the app’s performance needs.
+
+7. Optimize the Whole System
+
+Lean looks at the project as a whole rather than just focusing on individual tasks. Breaking big problems into smaller parts helps the team work efficiently together.
+When everyone understands the bigger picture, it improves teamwork, unity, and overall performance.
+Example: Developers, testers, and designers working closely from the start instead of separately helps speed up delivery and reduce mistakes.
+
+
