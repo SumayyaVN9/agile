@@ -751,4 +751,161 @@ If “In Progress” grows faster than “Done,” your team is **starting too m
 > A **CFD** helps you **see where work slows down** — so you can fix the bottlenecks and keep your workflow smooth.
 
 ---
+ **four main Kanban principles** 
+
+
+---
+
+## ⚙️ **Kanban Principles (Simplified Explanation)**
+
+### **1. Start with the Existing Process**
+
+* **Meaning:** Don’t throw away your current system or workflow. Begin from what you already have and improve it step by step.
+* **Why:** It saves time, avoids confusion, and helps people adapt easily.
+* **Example:**
+  A software team already uses Trello to manage tasks. Instead of switching to a new tool, they start applying Kanban principles to the same Trello board — just add WIP limits and track flow.
+
+---
+
+### **2. Agree to Pursue Incremental and Evolutionary Change**
+
+* **Meaning:** Make **small, continuous improvements** instead of large, sudden changes.
+* **Why:** Small changes are easier to test, manage, and accept by the team.
+* **Example:**
+  Instead of redesigning the entire workflow, the team decides to first reduce the number of “In Progress” tasks from 6 to 4 and see if speed improves.
+
+---
+
+### **3. Respect the Current Roles, Responsibilities & Titles**
+
+* **Meaning:** Don’t immediately change job titles or team structure. Keep people’s roles the same while improving how they work together.
+* **Why:** This avoids conflict and resistance among team members.
+* **Example:**
+  The QA tester remains a tester, the developer remains a developer — but now they collaborate through the Kanban board instead of waiting for handovers.
+
+---
+
+### **4. Encourage Leadership at All Levels**
+
+* **Meaning:** Anyone — regardless of rank — can contribute ideas to improve the workflow.
+* **Why:** Promotes creativity, motivation, and shared ownership.
+* **Example:**
+  A junior developer suggests using automation for testing to save time — the team accepts the idea and implements it.
+
+---
+
+## 🧭 **In Short**
+
+| Principle                               | What It Means                                  | Example                                          |
+| --------------------------------------- | ---------------------------------------------- | ------------------------------------------------ |
+| **Start with the existing process**     | Use your current system and improve from there | Begin Kanban on your existing Trello board       |
+| **Incremental and evolutionary change** | Make small, continuous improvements            | Reduce WIP gradually                             |
+| **Respect current roles & titles**      | Don’t force role changes                       | Keep team roles the same while improving process |
+| **Leadership at all levels**            | Everyone can contribute ideas                  | Junior member’s idea gets implemented            |
+
+---
+
+✅ **Summary:**
+
+> Kanban is not about replacing systems — it’s about improving them gradually, respecting people, and encouraging everyone to lead through ideas.
+
+---
+
+---
+
+## 🔁 **Continuous Improvement (Kaizen) in Kanban**
+
+### 💡 **Meaning**
+
+**Kaizen** is a Japanese term that means **“change for better”** — or simply, **continuous improvement**.
+In Kanban, it means the team is always looking for small ways to make their process faster, smoother, and more efficient.
+
+---
+
+### ⚙️ **How It Works in Kanban**
+
+Kanban is not about making one big change — it’s about **making small, continuous improvements** based on data and feedback.
+
+Teams use their **Kanban board** and **metrics** (like lead time, cycle time, and cumulative flow diagrams) to spot where work is slowing down — and then improve those areas.
+
+---
+
+### 🔍 **Steps of Continuous Improvement in Kanban**
+
+1. **Observe the current workflow** – Look at the Kanban board and see how tasks are moving.
+2. **Identify bottlenecks or problems** – For example, tasks pile up in the “Testing” column.
+3. **Discuss as a team** – Talk about why it’s happening and how to fix it.
+4. **Implement a small change** – Maybe add an extra tester or limit new tasks until old ones are done.
+5. **Review the results** – Check if the change helped; if yes, keep it; if not, try another idea.
+
+---
+
+### 🧠 **Example**
+
+A mobile app team notices that tasks often stay too long in “Code Review.”
+They:
+
+* Add a WIP limit of **2** for “Code Review.”
+* Hold a daily short meeting to review blocked tasks.
+  After a week, the flow becomes smoother — this is **Kaizen in action**.
+
+---
+
+### 📈 **Why Kaizen Matters in Kanban**
+
+| Benefit                 | Description                                       |
+| ----------------------- | ------------------------------------------------- |
+| **Improves efficiency** | Small improvements remove waste over time.        |
+| **Reduces risk**        | Changes are gradual — less chance of failure.     |
+| **Boosts morale**       | Everyone contributes ideas for improvement.       |
+| **Adapts to change**    | Teams stay flexible and ready for new challenges. |
+
+---
+
+### ✅ **In Short**
+
+> **Kaizen in Kanban = Small, ongoing improvements made by everyone to enhance workflow efficiency and quality.**
+
+
+---
+
+## ⚔️ **Scrum vs Kanban (Comparison Table)**
+![scrum vs kanban](Module-2-Images/Scrm-V-kaban.webp)
+| **Aspect**                  | **Scrum**                                                                              | **Kanban**                                                                   |
+| --------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Definition**              | A framework for managing work in **fixed-length iterations (Sprints)**                 | A **visual flow-based** method for managing continuous work                  |
+| **Approach**                | **Iterative** — work is done in short cycles (usually 2–4 weeks)                       | **Continuous flow** — work items move through stages without fixed timeboxes |
+| **Roles**                   | Has **defined roles** – Scrum Master, Product Owner, and Development Team              | No specific roles are defined; team members share responsibilities           |
+| **Planning**                | Work is planned at the start of each sprint                                            | Work is planned continuously as capacity becomes available                   |
+| **Work In Progress (WIP)**  | WIP is controlled **per sprint** (fixed amount of work)                                | WIP is controlled **per workflow stage** (set limits on columns)             |
+| **Meetings**                | Requires fixed meetings – Daily Standup, Sprint Planning, Sprint Review, Retrospective | Meetings are **not mandatory**, but feedback loops are encouraged            |
+| **Change during execution** | Changes are **not allowed** within a sprint                                            | Changes can be made anytime as workflow is flexible                          |
+| **Measurement Metrics**     | Measured by **Velocity** (how many story points per sprint)                            | Measured by **Lead Time, Cycle Time, and Flow Efficiency**                   |
+| **Board Structure**         | Scrum Board resets after each sprint                                                   | Kanban Board is continuous and never resets                                  |
+| **Best suited for**         | Teams that prefer **structured, time-bound development**                               | Teams that prefer **flexible, continuous delivery**                          |
+| **Example**                 | Developing a new mobile app feature over a 2-week sprint                               | Continuously fixing bugs and improving an existing app                       |
+
+---
+
+## 🧠 **Simple Way to Remember**
+
+> * 🕓 **Scrum = Sprints (time-boxed cycles)**
+> * 🔄 **Kanban = Continuous flow (no time-box)**
+
+---
+
+### 🧩 **Example Scenario**
+
+* A **Scrum team** working on a new e-commerce feature will plan tasks for a 2-week sprint and commit to finishing them before moving to the next sprint.
+* A **Kanban team** managing customer support tickets will continuously pick up new tickets as they become free — no sprint boundaries.
+
+---
+
+### ✅ **In Short**
+
+> **Scrum** gives structure and time-based goals.
+> **Kanban** gives flexibility and visual control over workflow.
+
+---
+
 
