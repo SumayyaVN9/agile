@@ -1,7 +1,6 @@
-Table of Contents
-
--[Module- 1](#module-i-agile-basics--software-product-lifecycle)
--[Module-2](#module-2---kanban-principles--practices)
+## Table of Contents
+- [Module- 1](#module-i-agile-basics--software-product-lifecycle)
+- [Module-2](#module-2---kanban-principles--practices)
 
 
 # Module I: Agile Basics & Software Product Lifecycle
@@ -908,4 +907,199 @@ They:
 
 ---
 
+---
+
+## 🍔 **1. Kanban Workflow – Food Delivery System**
+![kanban-example](Module-2-Images/kanban-cooking.jpg)
+### 📋 **Workflow Stages**
+
+| Stage                     | Description                                   |
+| ------------------------- | --------------------------------------------- |
+| **Order Received**        | Customer places an order via app/website.     |
+| **Order Confirmed**       | Restaurant accepts and starts preparing.      |
+| **Cooking / Preparation** | Chef prepares the food.                       |
+| **Ready for Pickup**      | Food packed and waiting for delivery partner. |
+| **Out for Delivery**      | Delivery partner is on the way.               |
+| **Delivered**             | Customer receives food, order completed.      |
+
+### 🧭 **Example Flow**
+
+```
+[ Order Received ] → [ Confirmed ] → [ Cooking ] → [ Ready for Pickup ] → [ Out for Delivery ] → [ Delivered ✅ ]
+```
+
+**WIP Limit Example:**
+
+* Cooking: Max 5 orders at a time (to maintain quality and speed).
+
+**Kaizen Example:**
+
+* If “Ready for Pickup” gets crowded, they might add more delivery partners.
+
+---
+
+## 🧑‍🎓 **2. Kanban Workflow – Student Management System**
+![student](Module-2-Images/kanban-student.jpg)
+### 📋 **Workflow Stages**
+
+| Stage                          | Description                                 |
+| ------------------------------ | ------------------------------------------- |
+| **Admission Request Received** | Student applies for admission.              |
+| **Application Under Review**   | Admin verifies documents.                   |
+| **Interview / Test Scheduled** | Student is called for evaluation.           |
+| **Selected / Rejected**        | Decision is made.                           |
+| **Fee Payment & Enrollment**   | Student pays fees and gets enrolled.        |
+| **Active Student**             | Student officially part of the institution. |
+
+### 🧭 **Example Flow**
+
+```
+[ Request Received ] → [ Under Review ] → [ Test Scheduled ] → [ Selected ] → [ Fee Paid ] → [ Active Student ✅ ]
+```
+
+**WIP Limit Example:**
+
+* Only 10 applications can be “Under Review” at once to avoid overload.
+
+**Kaizen Example:**
+
+* If “Under Review” keeps getting delayed, the team may add one more staff member for verification.
+
+---
+
+## 💬 **3. Kanban Workflow – Customer Support System**
+![cusomer-supoprt](Module-2-Images/customer-support.jpg)
+### 📋 **Workflow Stages**
+
+| Stage                             | Description                        |
+| --------------------------------- | ---------------------------------- |
+| **Ticket Created**                | User submits issue.                |
+| **Assigned to Agent**             | Ticket given to a support agent.   |
+| **In Progress**                   | Agent working on the issue.        |
+| **Waiting for Customer Response** | Agent needs more info.             |
+| **Resolved**                      | Problem fixed.                     |
+| **Closed**                        | Customer confirms issue is solved. |
+
+### 🧭 **Example Flow**
+
+```
+[ Ticket Created ] → [ Assigned ] → [ In Progress ] → [ Waiting for Response ] → [ Resolved ] → [ Closed ✅ ]
+```
+
+**WIP Limit Example:**
+
+* Each support agent handles maximum 3 active tickets at a time.
+
+**Kaizen Example:**
+
+* If tickets get stuck in “Waiting for Customer,” they might introduce automated reminders.
+
+---
+
+## ✅ **Summary: Key Features in All Kanban Workflows**
+
+| Concept        | Description                                           |
+| -------------- | ----------------------------------------------------- |
+| **Columns**    | Represent workflow stages                             |
+| **Cards**      | Represent tasks/orders/tickets                        |
+| **WIP Limits** | Restrict number of items in each stage                |
+| **Flow**       | Items move from left (start) to right (done)          |
+| **Goal**       | Ensure smooth, continuous progress with minimal delay |
+
+
+---
+
+## ⚙️ **Pull System vs Push System**
+
+| **Aspect**                       | **Push System**                                                                      | **Pull System (used in Kanban)**                                               |
+| -------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| **Definition**                   | Work is assigned or “pushed” to the next stage, regardless of capacity.              | Work is “pulled” by the next stage only when it has the capacity to handle it. |
+| **Who decides when to start?**   | The **previous stage** pushes work forward.                                          | The **next stage** pulls work when ready.                                      |
+| **Flow control**                 | Based on **schedule or plan**.                                                       | Based on **demand or capacity**.                                               |
+| **Risk**                         | Can create **overload** or **bottlenecks** if next stage is busy.                    | Avoids overload — each stage controls its own workload.                        |
+| **Example (Food Delivery)**      | The restaurant keeps cooking food even if delivery agents are busy — orders pile up. | The restaurant starts cooking only when a delivery partner is available.       |
+| **Example (Student Management)** | Admin keeps approving new admissions even if classes are full.                       | Admin allows new admissions only when seats are available.                     |
+| **Example (Customer Support)**   | System assigns tickets automatically even if agents are overloaded.                  | Agents pull a new ticket only after finishing current one.                     |
+| **Efficiency**                   | Lower efficiency due to waiting and backlog.                                         | Higher efficiency and smooth flow.                                             |
+| **Used in**                      | Traditional project management, manufacturing.                                       | Kanban, Lean, Just-in-Time systems.                                            |
+
+---
+
+### 🧠 **Simple Way to Remember**
+
+* 🧱 **Push System:** “I’ll give you work whether you’re ready or not.”
+* 🧲 **Pull System:** “I’ll take work only when I’m ready for it.”
+
+---
+
+### 🍔 **Real-Life Analogy**
+
+Imagine a **restaurant kitchen**:
+
+* **Push System:** The chef keeps making dishes even when the waiters haven’t served old ones — soon the counter is full.
+* **Pull System:** The chef cooks only when a waiter takes a new order — no pile-up, food stays fresh.
+
+---
+
+### ✅ **In Short**
+
+> **Kanban follows a Pull System** — every team member pulls new work only when they have finished their current task.
+> This ensures smooth workflow, no overload, and faster delivery.
+
+---
+
+
+## ⚙️ **What is Throughput in Kanban?**
+
+**Throughput** means the **number of tasks completed** in a given period of time.  
+It tells you **how much work your team finishes**, not how fast individual tasks move.
+
+---
+
+### 💡 **Simple Definition**
+> **Throughput = Total number of work items finished per unit of time**
+
+---
+
+### 🧠 **Example 1 – Customer Support**
+If your team **closes 25 tickets in one week**,  
+then your **throughput = 25 tickets/week.**
+
+---
+
+### 🍔 **Example 2 – Food Delivery**
+If a restaurant delivers **120 orders in one day**,  
+then **throughput = 120 orders/day.**
+
+---
+
+### 🎓 **Example 3 – Student Management System**
+If the admission team approves **30 student applications in 5 days**,  
+then **throughput = 6 applications/day.**
+
+---
+
+### 📈 **Why Throughput Matters**
+| Purpose | Explanation |
+|----------|--------------|
+| **Measures productivity** | Shows how much work is completed over time. |
+| **Helps forecasting** | Teams can estimate how much work they can finish in the next week or sprint. |
+| **Tracks improvement** | If throughput increases, your process is becoming more efficient. |
+| **Identifies bottlenecks** | Sudden drops in throughput mean some stage is slowing down. |
+
+---
+
+### ⚖️ **Throughput vs Cycle Time**
+| Concept | What It Measures | Example |
+|----------|------------------|----------|
+| **Throughput** | How many tasks completed per time | 20 tasks/week |
+| **Cycle Time** | How long one task takes to finish | 2 days/task |
+
+---
+
+### ✅ **In Short**
+> 🧩 **Throughput = Quantity of work done**  
+> ⏱️ **Cycle Time = Time taken per work item**
+
+---
 
