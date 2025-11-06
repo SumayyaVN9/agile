@@ -161,3 +161,92 @@ Responding to Change (The Priority): The focus is on embracing new requirements 
 Following a Plan (The Secondary Focus): A plan is a helpful starting point and roadmap, but it shouldn't be treated as an unchangeable law. If new information suggests the original plan is no longer the best path, the team should update the plan rather than blindly following it off a cliff.
 
 
+## Discuss Iterative & Incremental development.
+
+In **Agile development**, the **Iterative** and **Incremental** approaches are two key concepts that work together to ensure continuous improvement and faster delivery. Let’s break them down clearly 👇
+
+---
+![Incremental vs iterative](Module-1/incremental-vs-iterative.png)
+### 🌀 **Iterative Development**
+
+* **Meaning:**
+  The project is developed through **repeated cycles (iterations)**.
+  Each iteration involves **planning, designing, coding, testing, and reviewing**.
+* **Goal:**
+  To **refine and improve** the product step by step based on **feedback** from users or stakeholders.
+* **Example:**
+  Suppose you’re building a **mobile app**.
+  In the first iteration, you make a **basic version** of the login page.
+  In the next iteration, you **improve its design**, add **error handling**, and so on.
+
+✅ **Focus:** Improving the same part of the product repeatedly until it’s perfect.
+
+---
+
+### 🧩 **Incremental Development**
+
+* **Meaning:**
+  The project is built **piece by piece (in increments)**.
+  Each increment adds a **new functional feature** to the system.
+* **Goal:**
+  To deliver **usable parts** of the software early and expand functionality over time.
+* **Example:**
+  First increment → login system
+  Second increment → user profile
+  Third increment → messaging feature
+
+✅ **Focus:** Adding **new features** step by step until the full product is ready.
+
+---
+
+### 🚀 **How They Work Together in Agile**
+
+Agile combines both:
+
+* **Iterative:** Each feature is improved through multiple iterations.
+* **Incremental:** New features are added in increments.
+
+So, development happens **incrementally (adding features)** and **iteratively (refining them)**.
+
+---
+
+### 🧠 **Simple Summary**
+
+| Approach         | What It Does                            | Example                                               |
+| ---------------- | --------------------------------------- | ----------------------------------------------------- |
+| Iterative        | Improves existing parts repeatedly      | Redesign login UI over 3 sprints                      |
+| Incremental      | Adds new parts step by step             | Add login → profile → chat feature                    |
+| Combined (Agile) | Build and improve features continuously | Deliver working app early and enhance it every sprint |
+
+🌀 1. Iterative Development Example – Gmail’s Interface
+
+When Google first launched Gmail (2004), it had only basic features — composing, sending, and receiving emails.
+Over time, Google iterated on the same product by refining its design and performance.
+
+Iterations included:
+
+Adding conversation view (grouping emails in threads).
+
+Redesigning the UI for better navigation.
+
+Introducing dark mode, smart reply, and AI-based suggestions.
+
+👉 Each new version was an improvement of the same core system, based on user feedback and testing.
+This is iterative development — enhancing an existing feature through multiple cycles.
+
+🧩 2. Incremental Development Example – Spotify’s Features
+
+When Spotify was first released, it started with just music streaming.
+Then, with each increment, new features were added:
+
+Increment	Feature Added
+1	Music playback and search
+2	Playlist creation
+3	Offline mode
+4	Social sharing and collaborative playlists
+5	Podcasts and video support
+
+👉 Each new release added functional chunks that made the app more powerful and complete.
+That’s incremental development — adding new features over time.
+
+
