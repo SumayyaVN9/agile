@@ -345,3 +345,162 @@ In Agile, **Iterative** and **Incremental** approaches work together for continu
 | **6** | **Discuss 'Continuous Improvement (Kaizen)' in Kanban.**                                          | Common 5-mark conceptual question.                                              |
 | **7** | **Compare Scrum and Kanban.**                                                                     | Frequently asked in Part B (5 marks).                                           |
 | **8** | **Illustrate a Kanban workflow model for a support / food delivery / student management system.** | **Case-based question** → Can come in Part C (10 marks).                        |
+
+
+10 or 5 mark questions 
+
+1) Kanban Board + Diagram + Workflow
+2) WIP Limits (Definition + Purpose + Example)
+3) Lead Time vs Cycle Time + CFDs
+4) Case Study: Draw a Kanban board for any real-life system
+
+
+🎯 Short Notes That Also Come Frequently (2 Marks)
+
+Define Kanban
+
+Pull system vs Push system
+
+Kaizen
+
+Throughput
+
+
+---
+
+## 🧭 What is Kanban?
+
+**Kanban** is an **Agile methodology** used to manage and improve workflow efficiently.
+It helps teams **visualize their work**, **limit tasks in progress**, and **focus on continuous delivery** rather than big releases.
+
+In short:
+
+> **Kanban = Visual + Continuous + Flow-based project management**
+
+---
+
+## 🧩 Origin
+
+Kanban was originally developed by **Toyota** in the 1940s for **manufacturing** — to track car parts in production.
+Later, it was adapted for **software development** and **project management**.
+
+---
+
+## 🪧 The Kanban Board
+![Kanban - Board](Module-2-Images/Kanban-board-1.png)
+At the heart of Kanban is the **Kanban Board**, which visually represents the progress of work.
+It’s divided into columns, usually like this:
+
+| To Do              | In Progress           | Testing            | Done            |
+| :----------------- | :-------------------- | :----------------- | :-------------- |
+| Tasks yet to start | Tasks being worked on | Tasks under review | Completed tasks |
+
+Each task is represented by a **card** (physical sticky note or digital card like in Trello/Jira).
+
+---
+
+## ⚙️ How Kanban Works
+
+1. **Visualize Work**
+   Every task is placed on a Kanban board as a card.
+   → Example: “Design homepage,” “Fix login bug,” “Write API documentation.”
+
+2. **Limit Work in Progress (WIP)**
+   You set a limit for how many tasks can be in progress at once.
+   → Example: “Only 3 tasks can be ‘In Progress’ at a time.”
+   This prevents overloading and ensures focus.
+
+3. **Manage Flow**
+   As tasks move from left to right (To Do → In Progress → Done), the team tracks progress and removes bottlenecks.
+   → Example: If “Testing” always has many stuck tasks, the issue might be with QA capacity.
+
+4. **Make Process Policies Explicit**
+   The team agrees on clear rules.
+   → Example: “A task can move to ‘Testing’ only after code review.”
+
+5. **Implement Feedback Loops**
+   Daily stand-ups or review meetings are used to discuss issues and improve flow.
+
+6. **Continuous Improvement (Kaizen)**
+   The team regularly reviews the board and process to improve efficiency and delivery speed.
+
+---
+
+## 🧠 Example — Simple Software Team
+
+Imagine a small app development team working on a weather app.
+
+| To Do                | In Progress                   | Testing            | Done                |
+| -------------------- | ----------------------------- | ------------------ | ------------------- |
+| Create login screen  | Build API for weather data    | Fix search bar bug | Set up project repo |
+| Add location feature | Design UI for forecast screen |                    |                     |
+
+**Workflow:**
+
+* When “Build API for weather data” is done, it moves to “Testing”.
+* “Design UI for forecast screen” can’t start until there’s a free slot in “In Progress” (WIP limit = 2).
+* Once testing is passed, tasks go to “Done”.
+
+This keeps the workflow smooth and balanced.
+
+---
+
+## 💡 Key Principles of Kanban
+
+1. **Visualize your workflow** — use a board.
+2. **Limit work in progress (WIP)** — prevent overload.
+3. **Focus on flow** — ensure tasks move smoothly.
+4. **Continuous improvement** — review, adapt, improve.
+
+---
+
+## 🧰 Tools for Kanban
+
+* **Trello**
+* **Jira**
+* **Asana (with Kanban view)**
+* **GitHub Projects**
+
+---
+
+## ✅ Advantages of Kanban
+
+* Simple and visual — easy to understand.
+* Flexible — no strict roles or sprints.
+* Great for continuous delivery projects.
+* Encourages teamwork and transparency.
+
+---
+
+## ⚠️ Limitations
+
+* Hard to predict timelines (since it’s flow-based).
+* Needs disciplined team members to update cards regularly.
+
+---
+
+### 🔍 In Short
+
+| Aspect      | Kanban Summary                                  |
+| ----------- | ----------------------------------------------- |
+| Focus       | Continuous delivery and workflow management     |
+| Board       | Visual tool with columns for stages             |
+| Planning    | No fixed iterations (unlike Scrum)              |
+| Flexibility | Very high                                       |
+| Best For    | Support, DevOps, or teams with frequent changes |
+
+---
+
+### 💬 Real-Life Example
+
+Let’s say your **college project** involves three teammates:
+
+* One designs UI
+* One codes backend
+* One tests features
+
+Using a Kanban board, you can track who’s doing what, see what’s pending, and easily spot delays — like “Testing is stuck because backend isn’t ready.”
+
+---
+
+
