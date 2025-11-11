@@ -76,6 +76,10 @@ Requirements → Design → Development → Testing → Deployment → Maintenan
 
 Agile is a **flexible, iterative** approach where software is delivered **in small parts** and **improved continuously** with customer feedback.
 
+
+<img width="564" height="252" alt="image" src="https://github.com/user-attachments/assets/1e7e1088-464b-49ee-b4d4-e20f0603715b" />
+
+
 ### Key Characteristics
 - Short development cycles called **iterations** or **sprints**
 - Continuous user feedback
