@@ -1037,3 +1037,270 @@ If the admission team approves **30 student applications in 5 days**, then **thr
 
 ---
 
+# MODULE   3 
+
+
+----
+### 🧩 Requirements in Agile
+
+Requirements describe what the customer wants the system to do.
+
+In traditional models (like Waterfall), requirements are long, detailed documents.
+
+In Agile, they are written in a simple, flexible way — so teams can easily adapt to changes.
+
+---
+
+### 💬 User Stories
+
+A User Story is a short, simple statement that describes a feature from the user’s perspective.
+
+It focuses on who wants it, what they want, and why they want it.
+
+### 🎯 Purpose of User Stories
+
+👉 Keeps focus on user needs, not just technical details.
+
+👉 Encourages conversation between the team and stakeholders.
+
+👉 Helps in planning and estimating work easily.
+
+👉 Allows quick adjustments when requirements change.
+
+---
+
+### 🚀 1. Release Planning
+
+Definition:
+Release planning is deciding which features will be included in the next release (version) of the product and when it will be delivered.
+
+Purpose:
+It gives a big-picture view of what the team will deliver over several iterations.
+
+Example:
+
+👉 Version 1.0 → Login, Registration, Profile
+
+👉 Version 2.0 → Chat, Notifications
+
+✅ Goal: To plan the overall timeline and scope of multiple iterations that together form a product release.
+
+---
+
+### 🔄 2. Iteration Planning (Sprint Planning)
+
+Definition:
+It is the detailed planning done before each iteration (or sprint).
+The team decides which user stories to complete in that short period (usually 1–4 weeks).
+
+Purpose:
+👉 To break down the release plan into smaller tasks that can be finished within one iteration.
+
+Example:
+
+Sprint 1 → Build Login page
+
+Sprint 2 → Build Registration and Profile page
+
+✅ Goal: To set clear short-term goals for the team during each sprint.
+
+---
+
+### 🧪 3. Customer Tests
+
+Definition:
+Customer tests are also called Acceptance Tests.
+They are written by or with the customer to describe what the software should do to be accepted as “done.”
+
+Purpose:
+To make sure the product meets real user expectations and works correctly.
+
+Example:
+For the user story “As a user, I want to reset my password”,
+customer test could be:
+
+👉 The user receives a reset link in email.
+
+👉 The new password works immediately after reset.
+
+✅ Goal: To confirm that every feature works as the customer expects.
+
+---
+
+### 🧱 4. Small and Regular Releases
+
+Definition:
+Instead of one big release at the end, Agile teams deliver small pieces of working software frequently (e.g., every few weeks).
+
+Purpose:
+👉 To get early feedback from users and make improvements quickly.
+
+Example:
+
+Week 2: Login feature released
+
+Week 4: Profile feature released
+
+Week 6: Messaging feature released
+
+✅ Goal: To provide value to users early and often, not wait until the whole project is done.
+
+
+---
+
+
+### 👩‍💻👨‍💻 5. Pair Programming
+
+Definition:
+Pair Programming is when two developers work together on one computer to write code.
+
+One is the Driver – types the code.
+
+The other is the Observer/Navigator – reviews the code, suggests ideas, and checks for errors.
+
+Purpose:
+
+👉 Improves code quality (because two people are checking it).
+
+👉 Encourages knowledge sharing between team members.
+
+👉 Reduces mistakes and improves design ideas.
+
+Example:
+One developer writes the login code while the other ensures security checks are correctly handled.
+
+✅ Goal: To produce better code through teamwork and shared learning.
+
+
+---
+
+
+### ⚙️ 6. Continuous Integration (CI)
+
+Definition:
+Continuous Integration means developers frequently (often daily) merge their code changes into a shared central repository (like GitHub).
+After each merge, automated tests run to check if the new code works well with the old code.
+
+Purpose:
+
+👉 To detect bugs early.
+
+👉 To keep the project working at all times.
+
+👉 To avoid “integration problems” where different parts of the code don’t fit together.
+
+Example:
+A developer adds a new “Profile” feature → commits it → automated tests check that Login and Dashboard still work.
+
+✅ Goal: Ensure the software always stays stable and up-to-date.
+
+----
+
+### 👥 7. Collective Code Ownership
+
+Definition:
+In Agile, everyone on the team can edit any part of the code — no one “owns” one specific file or module.
+
+Purpose:
+
+👉 Encourages team responsibility — everyone ensures code quality.
+
+👉 Increases flexibility — anyone can fix bugs or add features anywhere.
+
+👉 Prevents delays if one developer is absent.
+
+Example:
+If Developer A finds a bug in code written by Developer B, they can fix it directly instead of waiting for B.
+
+✅ Goal: To build teamwork and shared responsibility for the entire project.
+
+----
+
+### 8. 👥 Team Roles in Agile
+
+In Agile (especially Scrum), the project team is self-organized — everyone works together to deliver a working product.
+There are three main roles in an Agile team:
+
+🧑‍💼 1. Product Owner (PO)
+
+👉 Represents the customer or business side.
+
+👉 Responsible for deciding what needs to be built.
+
+👉 Maintains the Product Backlog — a list of all features, improvements, and fixes.
+
+👉 Sets priorities (what to do first) based on customer needs and business value.
+
+👉 Works closely with the team to explain user stories and requirements.
+
+Example:
+The Product Owner decides that the “Search Feature” should be developed before the “Dark Mode Feature.”
+
+✅ Goal: Make sure the team builds the right product that meets customer expectations.
+
+🧑‍🏫 2. Scrum Master
+
+👉 Acts as a coach and facilitator for the team.
+
+👉 Ensures the team follows Agile and Scrum principles.
+
+👉 Removes any obstacles or blockers that slow down progress.
+
+👉 Helps the team improve continuously through meetings like Daily Stand-ups and Retrospectives.
+
+👉 Protects the team from unnecessary pressure or outside distractions.
+
+Example:
+If the team is waiting for access to a testing server, the Scrum Master arranges it quickly.
+
+✅ Goal: Help the team work smoothly and efficiently.
+
+👩‍💻 3. Development Team
+
+👉 A group of professionals who build the product — includes developers, testers, designers, etc.
+
+👉 They decide how to complete the work during each iteration (sprint).
+
+👉 Work together collaboratively (no boss-subordinate structure inside the team).
+
+👉 Responsible for coding, testing, integrating, and delivering working software.
+
+Example:
+Developers code the login feature, testers check it, and designers improve its look.
+
+✅ Goal: Deliver high-quality working software in every sprint.
+
+
+🧩 4. Optional (Supporting Role): “Stakeholder”
+
+👉 Anyone affected by the project — customers, users, managers, investors, etc. They give requirements, feedback, and review progress.
+
+---
+## 🌟 Agile Principles
+
+The **Agile Manifesto** is built on **4 values** and **12 principles** that guide how Agile teams work.  
+These principles focus on **flexibility, teamwork, customer satisfaction**, and **delivering quality software**.
+
+
+
+### 🧭 The 12 Principles of Agile (Explained Simply)
+
+| No. | Principle | Simple Meaning / Example |
+| --- | ---------- | ------------------------ |
+| **1** | Customer satisfaction through early and continuous delivery of software. | Deliver working software regularly so customers see progress early. |
+| **2** | Welcome changing requirements, even late in development. | Be flexible — if the customer wants changes, adapt quickly. |
+| **3** | Deliver working software frequently. | Release small, working parts often (every 1–4 weeks). |
+| **4** | Business people and developers must work together daily. | Continuous communication between customer and team. |
+| **5** | Build projects around motivated individuals. | Trust your team — give them the support they need. |
+| **6** | Face-to-face communication is the best way to convey information. | Talk directly (in person or via meetings) for clarity. |
+| **7** | Working software is the main measure of progress. | The focus is on what works, not on documents or plans. |
+| **8** | Sustainable development — maintain a constant pace indefinitely. | Avoid overwork; keep a steady, healthy speed. |
+| **9** | Continuous attention to technical excellence and good design. | Write clean, quality code and keep improving it. |
+| **10** | Simplicity — maximize the amount of work not done. | Focus only on what’s needed; don’t overcomplicate. |
+| **11** | Best results come from self-organizing teams. | Teams manage their own work — no micromanagement. |
+| **12** | Regular reflection and adjustment. | After each sprint, the team reviews what went well and what to improve. |
+
+
+✅ **In short:** Agile principles help teams **deliver value faster**, **adapt to change**, and **continuously improve** through teamwork and communication.
+
+---
