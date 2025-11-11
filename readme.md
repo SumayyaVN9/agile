@@ -1304,3 +1304,278 @@ These principles focus on **flexibility, teamwork, customer satisfaction**, and 
 ✅ **In short:** Agile principles help teams **deliver value faster**, **adapt to change**, and **continuously improve** through teamwork and communication.
 
 ---
+
+## MODULE 4
+
+---
+### 🌀 What is Scrum?
+
+
+Scrum is an Agile framework used to manage and complete complex projects — especially software development.
+
+It helps teams work together, deliver work in short cycles, and adapt quickly to changes.
+
+Scrum is based on teamwork, transparency, and continuous improvement
+
+---
+
+# 🌟 Benefits of Agile Methodology
+
+Agile offers many advantages to both teams and customers.  
+It focuses on **flexibility, collaboration, and continuous improvement** to ensure better software delivery and customer satisfaction.
+
+---
+
+### 🚀 Key Benefits of Agile
+
+
+| **Benefit**                   | **Explanation**                                                              |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| **1. Flexibility**            | Easy to change plans when customer needs change.                             |
+| **2. Faster Delivery**        | Software is delivered in small parts (sprints), so users get results early.  |
+| **3. Better Quality**         | Continuous testing and feedback improve product quality.                     |
+| **4. Team Collaboration**     | Daily meetings and open communication increase teamwork.                     |
+| **5. Customer Satisfaction**  | Customers see progress regularly and can give feedback.                      |
+| **6. Transparency**           | Everyone knows what’s happening through regular meetings and visible boards. |
+| **7. Continuous Improvement** | Teams review their performance after every sprint and improve.               |
+
+---
+## 🧩 Scrum Framework
+
+The Scrum Framework is made up of three main parts:
+
+### 1. Scrum Roles
+
+| **Role**                   | **Responsibility**                                        |
+| -------------------------- | --------------------------------------------------------- |
+| 🧑‍💼 **Product Owner**    | Decides what features to build (manages Product Backlog). |
+| 🧑‍🏫 **Scrum Master**     | Ensures Scrum is followed, removes obstacles.             |
+| 👩‍💻 **Development Team** | Builds, tests, and delivers the product each Sprint.      |
+
+---
+
+### 2.🕒 Scrum Events (Ceremonies)
+
+In Scrum, events (also called ceremonies) are regular meetings that help the team plan, track, and improve their work.
+
+There are five main Scrum events that repeat in every Sprint cycle.
+
+
+
+### 🌀 1. Sprint
+
+
+👉 The core of Scrum — a fixed time period (usually 1 to 4 weeks) where the team works to deliver a working product.
+
+👉 The goal of a Sprint is to complete a usable product increment (something that can be shown to the customer).
+
+Key Points:
+
+Length: Fixed duration (same for all Sprints).
+
+Focus: Deliver a small, working part of the project.
+
+No changes to goals during the Sprint.
+
+Example:
+In a 2-week Sprint, the team might build the “Login” and “Sign-Up” features.
+
+✅ Goal: Deliver a small, working piece of software.
+
+
+
+### 📝 2. Sprint Planning
+
+
+👉 Happens at the beginning of the Sprint.
+
+👉 The Product Owner, Scrum Master, and Development Team meet to decide:
+
+👉 What will be done (select items from Product Backlog).
+
+👉 How it will be done (break into smaller tasks).
+
+Example:
+The team selects 3 features to build in this Sprint — Login, Profile Page, and Logout.
+
+✅ Goal: Create a Sprint Goal and Sprint Backlog (plan for the next few weeks).
+
+
+
+### 🗓️ 3. Daily Scrum (Daily Stand-up)
+
+
+
+👉 A short daily meeting (about 15 minutes).
+
+The Development Team shares updates:
+
+🌟 What I did yesterday 🧑‍💻
+
+🌟 What I will do today 📋
+
+🌟 Any problems or blockers ⚠️
+
+Example:
+Each morning, team members quickly discuss their progress and any help they need.
+
+✅ Goal: Keep everyone synchronized and identify problems early.
+
+
+
+### 👀 4. Sprint Review
+
+👉 Happens at the end of the Sprint.
+
+👉 The team shows the completed work (Increment) to the Product Owner and Stakeholders.
+
+👉 Stakeholders give feedback that helps plan the next Sprint.
+
+Example:
+The team demonstrates the working “Login” feature to the customer for feedback.
+
+✅ Goal: Review progress and collect feedback to improve the product.
+
+
+
+### 🔁 5. Sprint Retrospective
+
+Happens after the Sprint Review, before the next Sprint starts.
+
+The team discusses:
+
+🌟 What went well 👍
+
+🌟 What didn’t go well 👎
+
+🌟How to improve next Sprint 💡
+
+---
+
+###  3. Scrum Artifacts
+
+Scrum Artifacts — these are the key deliverables or tools that help teams plan, track, and manage work in Scrum.
+
+🧩 1. Product Backlog
+
+👉 The Product Backlog is a list of all features, functions, requirements, enhancements, and fixes that might be included in the product.
+
+👉 It is maintained by the Product Owner.
+
+👉 Items are prioritized based on business value or customer needs.
+
+
+
+🧩 2. Sprint Backlog
+
+The Sprint Backlog is a subset of the Product Backlog that the team commits to complete during a Sprint (typically 2–4 weeks).
+
+👉 It is created during the Sprint Planning meeting.
+
+ 👉 It includes tasks necessary to deliver the selected user stories.
+
+
+
+
+🧩 3. Increment
+
+The Increment is the sum of all completed Product Backlog items during a Sprint plus all previous increments.
+
+👉 It must be in a usable, potentially shippable state.
+
+👉 It represents progress toward the final product goal.
+
+
+----
+
+##  Estimation and Velocity in Agile/Scrum — both are important for planning and tracking team performance.
+
+### ⚙️ 1. Estimation
+
+In Scrum, Estimation means predicting how much effort or time a task or user story will take to complete.
+It helps the team plan how much work they can commit to in a Sprint.
+
+🎯 Purpose of Estimation:
+
+👉 To understand workload before starting the sprint
+
+👉 To help in planning (deciding how many stories can fit in one sprint)
+
+👉 To track team performance and predict delivery dates
+
+🔢 Common Estimation Methods:
+
+
+🌟 1.Story Points (most common)
+
+
+👉 A relative measure of effort, not actual hours.
+
+👉 Larger story → higher story points.
+
+👉 Teams often use numbers like 1, 2, 3, 5, 8, 13 (Fibonacci series).
+
+Story Points consider:
+
+Complexity
+
+Amount of work
+
+Risks or unknowns
+
+Example:
+
+“Login feature” → 3 points
+
+“Add payment gateway” → 8 points (more complex)
+
+
+
+🌟 2.Ideal Hours / Ideal Days
+
+👉 Estimates how long a task would take if there were no interruptions.
+
+👉 Less common, as Story Points are more flexible.
+
+
+
+🌟 3.Planning Poker
+
+
+👉 A team game where members estimate stories using cards (1, 2, 3, 5, 8, etc.)
+
+👉 Everyone discusses and agrees on a fair estimate.
+
+----
+### 🚀 2. Velocity
+
+📘 Definition:
+
+Velocity is the average amount of work (in story points) a team completes in one sprint.
+It shows the team’s capacity and helps forecast future sprint performance.
+
+👉 📊 How to Calculate Velocity:
+
+If a team completes this many Story Points:
+
+| Sprint   | Story Points Completed |
+| -------- | ---------------------- |
+| Sprint 1 | 20                     |
+| Sprint 2 | 25                     |
+| Sprint 3 | 22                     |
+
+
+Average Velocity = (20 + 25 + 22) / 3 = 22.3 ≈ 22 story points per sprint
+
+
+### 🧭 How Velocity is Used:
+
+🌟  plan future sprints (decide how many stories to take)
+
+🌟 To forecast release dates
+
+🌟 To measure improvement over time
+
+---
+
+
