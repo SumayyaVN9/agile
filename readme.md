@@ -1579,3 +1579,201 @@ Average Velocity = (20 + 25 + 22) / 3 = 22.3 ≈ 22 story points per sprint
 ---
 
 
+### 🧭 Planning Principles in Agile/Scrum
+
+Planning in Scrum is iterative and adaptive, not fixed like in traditional project management.
+The goal is to deliver value continuously and adapt to change quickly.
+
+⚙️ 1. Plan at Multiple Levels
+
+Agile planning happens at different stages, not just once.
+
+Level	Description
+Product Planning	Long-term vision and roadmap of the product.
+Release Planning	Medium-term plan — which features will be released and when.
+Sprint Planning	Short-term plan — what will be done in the next sprint.
+
+📝 Example:
+
+Product Plan → Build shopping app
+
+Release Plan → Login, Search, Payment in 3 months
+
+Sprint Plan → Implement Login in 2 weeks
+
+
+
+⚙️ 2. Welcome Change
+
+Plans are flexible. Agile assumes requirements can change anytime based on user feedback or business needs.
+➡️ Teams adapt plans quickly instead of sticking to rigid schedules.
+
+
+
+⚙️ 3. Deliver Working Software Frequently
+
+Instead of planning for months before showing results, Scrum delivers small, working increments regularly after each sprint.
+➡️ This allows early feedback and better decision-making.
+
+
+
+⚙️ 4. Collaborative Planning
+
+Planning is done by the whole team, not just managers.
+Product Owner, Scrum Master, and Developers work together to estimate, prioritize, and commit to tasks.
+
+
+
+⚙️ 5. Time-Boxed Planning
+
+Each event (like Sprint Planning) has a fixed time limit.
+➡️ This keeps meetings focused and efficient.
+
+
+
+⚙️ 6. Prioritize by Business Value
+
+Work is always planned in the order of highest value to the customer first.
+➡️ Ensures that the most important features are delivered early.
+
+
+
+
+⚙️ 7. Continuous Improvement
+
+At the end of each sprint, teams reflect (in the Retrospective) and plan how to improve the next sprint.
+➡️ Planning becomes smarter over time.
+
+
+
+⚙️ 8. Estimate Using Real Data
+
+Plans are based on past performance (velocity) and story point estimates rather than guesses.
+➡️ Makes future planning more accurate.
+
+
+---
+
+## MODULE 5
+
+---
+
+### 🧰 Agile / Scrum Tools Explained
+
+---
+
+### 🟦 1. Atlassian Jira
+
+Type: Agile project management tool
+Used For: Scrum, Kanban, and bug tracking
+
+✅ Key Features:
+
+➡️ Create and manage user stories, tasks, and sprints
+
+➡️ Visual Scrum boards and Kanban boards for tracking work
+
+➡️ Burndown charts to monitor progress
+
+➡️ Easy integration with tools like Confluence, Bitbucket, and Slack
+
+💡 Example:
+Developers use Jira to track the progress of each sprint — from “To Do” → “In Progress” → “Done”.
+
+👉 Best For: Medium to large Agile/Scrum teams.
+
+### 🟩 2. ActiveCollab
+
+Type: Project management and collaboration tool
+Used For: Task organization, communication, and time tracking
+
+✅ Key Features:
+
+➡️ Simple task lists and project timelines
+
+➡️ Team communication (comments, file sharing)
+
+➡️ Time tracking and invoicing built-in
+
+➡️ Suitable for both Agile and non-Agile teams
+
+💡 Example:
+A small startup team uses ActiveCollab to plan tasks, assign work, and track time spent on design and coding.
+
+👉 Best For: Small teams and creative agencies.
+
+### 🟨 3. Wrike
+
+Type: Work management and collaboration platform
+Used For: Project planning, reporting, and workflow automation
+
+✅ Key Features:
+
+➡️ Custom dashboards and Gantt charts
+
+➡️ Kanban-style task management
+
+➡️ Real-time collaboration and file sharing
+
+➡️ Works well for marketing, IT, or product development teams
+
+💡 Example:
+A product manager uses Wrike to view project progress and assign new tasks with priorities.
+
+👉 Best For: Enterprises or teams needing strong reporting and cross-department collaboration.
+
+### 🟧 4. Agilo for Scrum
+
+Type: Scrum-specific project management tool
+Used For: Managing all Scrum artifacts and processes
+
+✅ Key Features:
+
+➡️ Built especially for Scrum (not generic project management)
+
+➡️ Supports Product Backlog, Sprint Backlog, Burndown Charts, and Sprint Planning
+
+➡️ Helps track user stories, tasks, and team velocity
+
+💡 Example:
+A Scrum Master uses Agilo to manage the Product Backlog and view Sprint progress in real time.
+
+👉 Best For: Teams following Scrum strictly and needing a focused Scrum environment.
+
+### 🟪 5. Pivotal Tracker
+
+Type: Agile project management tool
+Used For: Story-based project tracking
+
+✅ Key Features:
+
+➡️ Organizes work into stories (features, bugs, chores)
+
+➡️ Automatic velocity tracking — predicts future performance
+
+➡️ Simple drag-and-drop interface
+
+➡️ Encourages collaboration through shared backlogs
+
+💡 Example:
+A software team uses Pivotal Tracker to plan new features and automatically calculate how many stories fit in each sprint.
+
+👉 Best For: Small to medium software teams who want simplicity.
+
+### 🟥 6. Easy Redmine
+
+Type: Advanced project management and issue tracking tool
+Used For: Agile, Scrum, and enterprise project management
+
+✅ Key Features:
+
+➡️ Combines Scrum, Gantt charts, and resource management
+
+➡️ Includes time tracking, cost management, and reporting
+
+➡️ Customizable dashboards and plugins
+
+➡️ Integrates with Redmine, an open-source project tool
+
+💡 Example:
+A company uses Easy Redmine to manage multiple teams, track sprint performance, and handle budgets and timelines.
